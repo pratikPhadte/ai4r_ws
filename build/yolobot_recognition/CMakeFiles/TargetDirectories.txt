@@ -1,0 +1,9 @@
+/ai4r_ws/build/yolobot_recognition/CMakeFiles/uninstall.dir
+/ai4r_ws/build/yolobot_recognition/CMakeFiles/yolobot_recognition_uninstall.dir
+/ai4r_ws/build/yolobot_recognition/CMakeFiles/test.dir
+/ai4r_ws/build/yolobot_recognition/CMakeFiles/edit_cache.dir
+/ai4r_ws/build/yolobot_recognition/CMakeFiles/rebuild_cache.dir
+/ai4r_ws/build/yolobot_recognition/CMakeFiles/list_install_components.dir
+/ai4r_ws/build/yolobot_recognition/CMakeFiles/install.dir
+/ai4r_ws/build/yolobot_recognition/CMakeFiles/install/local.dir
+/ai4r_ws/build/yolobot_recognition/CMakeFiles/install/strip.dir

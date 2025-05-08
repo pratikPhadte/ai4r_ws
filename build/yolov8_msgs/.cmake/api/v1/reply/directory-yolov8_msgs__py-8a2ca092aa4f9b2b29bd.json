@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "yolov8_msgs__py",
+		"source" : "/ai4r_ws/build/yolov8_msgs/yolov8_msgs__py"
+	}
+}

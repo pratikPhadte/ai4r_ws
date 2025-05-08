@@ -1,0 +1,1050 @@
+[0.000000] (-) TimerEvent: {}
+[0.000449] (relbot_video_interface) JobQueued: {'identifier': 'relbot_video_interface', 'dependencies': OrderedDict()}
+[0.000506] (yolobot_control) JobQueued: {'identifier': 'yolobot_control', 'dependencies': OrderedDict()}
+[0.000535] (yolobot_description) JobQueued: {'identifier': 'yolobot_description', 'dependencies': OrderedDict()}
+[0.000556] (yolobot_gazebo) JobQueued: {'identifier': 'yolobot_gazebo', 'dependencies': OrderedDict()}
+[0.000576] (yolobot_recognition) JobQueued: {'identifier': 'yolobot_recognition', 'dependencies': OrderedDict()}
+[0.000594] (yolov8_msgs) JobQueued: {'identifier': 'yolov8_msgs', 'dependencies': OrderedDict()}
+[0.005365] (relbot_video_interface) JobStarted: {'identifier': 'relbot_video_interface'}
+[0.037748] (yolobot_control) JobStarted: {'identifier': 'yolobot_control'}
+[0.050870] (yolobot_description) JobStarted: {'identifier': 'yolobot_description'}
+[0.069727] (yolobot_gazebo) JobStarted: {'identifier': 'yolobot_gazebo'}
+[0.075150] (yolobot_recognition) JobStarted: {'identifier': 'yolobot_recognition'}
+[0.096926] (yolov8_msgs) JobStarted: {'identifier': 'yolov8_msgs'}
+[0.099912] (-) TimerEvent: {}
+[0.200428] (-) TimerEvent: {}
+[0.300745] (-) TimerEvent: {}
+[0.401070] (-) TimerEvent: {}
+[0.501405] (-) TimerEvent: {}
+[0.601748] (-) TimerEvent: {}
+[0.702103] (-) TimerEvent: {}
+[0.802439] (-) TimerEvent: {}
+[0.902750] (-) TimerEvent: {}
+[1.003083] (-) TimerEvent: {}
+[1.104841] (-) TimerEvent: {}
+[1.211759] (-) TimerEvent: {}
+[1.312117] (-) TimerEvent: {}
+[1.412598] (-) TimerEvent: {}
+[1.515727] (-) TimerEvent: {}
+[1.618864] (-) TimerEvent: {}
+[1.717923] (yolobot_control) JobProgress: {'identifier': 'yolobot_control', 'progress': 'cmake'}
+[1.718949] (-) TimerEvent: {}
+[1.723994] (yolobot_control) Command: {'cmd': ['/usr/bin/cmake', '/ai4r_ws/src/yolobot/src/yolobot_control', '-DCMAKE_INSTALL_PREFIX=/ai4r_ws/install/yolobot_control'], 'cwd': '/ai4r_ws/build/yolobot_control', 'env': OrderedDict({'HOSTNAME': 'pratik-LOQ-15IRH8', 'GIT_ASKPASS': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-638d2a18-db20-44ac-86eb-419b35aff4a7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b489888f-1dec-4353-990d-8521ccc85459.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-37cea695a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ai4r_ws/build/yolobot_control', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.756912] (yolobot_description) JobProgress: {'identifier': 'yolobot_description', 'progress': 'cmake'}
+[1.757684] (yolobot_description) Command: {'cmd': ['/usr/bin/cmake', '/ai4r_ws/src/yolobot/src/yolobot_description', '-DCMAKE_INSTALL_PREFIX=/ai4r_ws/install/yolobot_description'], 'cwd': '/ai4r_ws/build/yolobot_description', 'env': OrderedDict({'HOSTNAME': 'pratik-LOQ-15IRH8', 'GIT_ASKPASS': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-638d2a18-db20-44ac-86eb-419b35aff4a7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b489888f-1dec-4353-990d-8521ccc85459.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-37cea695a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ai4r_ws/build/yolobot_description', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.764769] (yolobot_gazebo) JobProgress: {'identifier': 'yolobot_gazebo', 'progress': 'cmake'}
+[1.764826] (yolobot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/ai4r_ws/src/yolobot/src/yolobot_gazebo', '-DCMAKE_INSTALL_PREFIX=/ai4r_ws/install/yolobot_gazebo'], 'cwd': '/ai4r_ws/build/yolobot_gazebo', 'env': OrderedDict({'HOSTNAME': 'pratik-LOQ-15IRH8', 'GIT_ASKPASS': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-638d2a18-db20-44ac-86eb-419b35aff4a7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b489888f-1dec-4353-990d-8521ccc85459.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-37cea695a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ai4r_ws/build/yolobot_gazebo', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.767904] (yolobot_recognition) JobProgress: {'identifier': 'yolobot_recognition', 'progress': 'cmake'}
+[1.767959] (yolobot_recognition) Command: {'cmd': ['/usr/bin/cmake', '/ai4r_ws/src/yolobot/src/yolobot_recognition', '-DCMAKE_INSTALL_PREFIX=/ai4r_ws/install/yolobot_recognition'], 'cwd': '/ai4r_ws/build/yolobot_recognition', 'env': OrderedDict({'HOSTNAME': 'pratik-LOQ-15IRH8', 'GIT_ASKPASS': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-638d2a18-db20-44ac-86eb-419b35aff4a7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b489888f-1dec-4353-990d-8521ccc85459.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-37cea695a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ai4r_ws/build/yolobot_recognition', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.817486] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'cmake'}
+[1.817607] (yolov8_msgs) Command: {'cmd': ['/usr/bin/cmake', '/ai4r_ws/src/yolobot/src/yolov8_msgs', '-DCMAKE_INSTALL_PREFIX=/ai4r_ws/install/yolov8_msgs'], 'cwd': '/ai4r_ws/build/yolov8_msgs', 'env': OrderedDict({'HOSTNAME': 'pratik-LOQ-15IRH8', 'GIT_ASKPASS': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-638d2a18-db20-44ac-86eb-419b35aff4a7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b489888f-1dec-4353-990d-8521ccc85459.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-37cea695a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ai4r_ws/build/yolov8_msgs', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.828388] (-) TimerEvent: {}
+[1.931662] (-) TimerEvent: {}
+[2.032013] (-) TimerEvent: {}
+[2.132353] (-) TimerEvent: {}
+[2.238759] (-) TimerEvent: {}
+[2.310815] (yolov8_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.313766] (yolobot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.339247] (-) TimerEvent: {}
+[2.346563] (yolobot_recognition) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.352838] (yolobot_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.372813] (yolobot_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.440887] (-) TimerEvent: {}
+[2.542094] (-) TimerEvent: {}
+[2.645754] (-) TimerEvent: {}
+[2.751766] (-) TimerEvent: {}
+[2.828797] (yolov8_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.839815] (yolobot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.840115] (yolobot_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.851847] (-) TimerEvent: {}
+[2.879412] (yolobot_recognition) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.890867] (yolobot_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.934034] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.939152] (yolobot_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.941581] (yolobot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.954745] (-) TimerEvent: {}
+[2.985531] (yolobot_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.995987] (yolobot_recognition) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.056359] (-) TimerEvent: {}
+[3.156697] (-) TimerEvent: {}
+[3.259758] (-) TimerEvent: {}
+[3.360129] (-) TimerEvent: {}
+[3.385847] (yolobot_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.463936] (-) TimerEvent: {}
+[3.481819] (yolobot_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.486813] (yolobot_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.494830] (yolobot_recognition) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.495143] (yolobot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.497453] (yolobot_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.501787] (yolobot_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.506776] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.546869] (yolobot_recognition) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.549828] (yolobot_recognition) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.553651] (yolov8_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.557861] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.557991] (yolobot_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.558101] (yolobot_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.558199] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.558308] (yolobot_recognition) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.559874] (yolobot_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.564020] (-) TimerEvent: {}
+[3.572364] (yolobot_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.596744] (yolobot_recognition) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.612838] (yolobot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.613142] (yolobot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.613315] (yolobot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.616368] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.622522] (yolobot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.663839] (yolobot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.664146] (-) TimerEvent: {}
+[3.772762] (-) TimerEvent: {}
+[3.873130] (-) TimerEvent: {}
+[3.973750] (-) TimerEvent: {}
+[4.028866] (yolobot_recognition) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.065798] (yolobot_recognition) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.066647] (yolobot_recognition) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.067765] (yolobot_recognition) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.076634] (-) TimerEvent: {}
+[4.083852] (yolobot_recognition) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.140601] (yolobot_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.151380] (yolobot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.176729] (-) TimerEvent: {}
+[4.187957] (yolobot_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.188361] (yolobot_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.189155] (yolobot_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.192495] (yolobot_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.196005] (yolobot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.196961] (yolobot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.206434] (yolobot_control) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.221776] (yolobot_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.229901] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.234160] (yolobot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.278817] (-) TimerEvent: {}
+[4.292711] (yolobot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.302823] (yolobot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.304930] (yolobot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.307506] (yolov8_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.307727] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.307899] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.326824] (yolobot_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.343796] (yolov8_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.378911] (-) TimerEvent: {}
+[4.482744] (-) TimerEvent: {}
+[4.586359] (-) TimerEvent: {}
+[4.688743] (-) TimerEvent: {}
+[4.696666] (relbot_video_interface) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/relbot_video_interface', 'build', '--build-base', '/ai4r_ws/build/relbot_video_interface/build', 'install', '--record', '/ai4r_ws/build/relbot_video_interface/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ai4r_ws/src/relbot_video_interface', 'env': {'HOSTNAME': 'pratik-LOQ-15IRH8', 'GIT_ASKPASS': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-638d2a18-db20-44ac-86eb-419b35aff4a7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b489888f-1dec-4353-990d-8521ccc85459.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-37cea695a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ai4r_ws/build/relbot_video_interface', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/ai4r_ws/build/relbot_video_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.800022] (-) TimerEvent: {}
+[4.900379] (-) TimerEvent: {}
+[5.001035] (-) TimerEvent: {}
+[5.016794] (yolobot_recognition) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.026338] (yolobot_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.057788] (yolobot_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.101138] (-) TimerEvent: {}
+[5.110099] (yolov8_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.201242] (-) TimerEvent: {}
+[5.302747] (-) TimerEvent: {}
+[5.326740] (yolobot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.328244] (yolobot_gazebo) StdoutLine: {'line': b'-- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[5.335298] (yolobot_gazebo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.353167] (yolov8_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[5.402986] (-) TimerEvent: {}
+[5.507414] (-) TimerEvent: {}
+[5.538121] (yolov8_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[5.586820] (yolobot_recognition) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.607510] (-) TimerEvent: {}
+[5.612865] (yolobot_description) StdoutLine: {'line': b'-- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)\n'}
+[5.658758] (yolov8_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[5.707622] (-) TimerEvent: {}
+[5.750932] (yolobot_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[5.778835] (yolov8_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.789818] (yolobot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.795899] (yolobot_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.807732] (-) TimerEvent: {}
+[5.852828] (yolov8_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.907829] (-) TimerEvent: {}
+[5.981156] (yolov8_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[6.007928] (-) TimerEvent: {}
+[6.059761] (yolov8_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[6.108242] (-) TimerEvent: {}
+[6.121831] (yolobot_gazebo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.127856] (yolobot_gazebo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.128125] (yolobot_gazebo) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[6.132122] (relbot_video_interface) StdoutLine: {'line': b'running egg_info\n'}
+[6.132421] (yolobot_gazebo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.132604] (relbot_video_interface) StdoutLine: {'line': b'creating ../../build/relbot_video_interface/relbot_video_interface.egg-info\n'}
+[6.132939] (yolobot_gazebo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.139111] (yolobot_gazebo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.148906] (yolobot_gazebo) StdoutLine: {'line': b'-- Configuring done (4.3s)\n'}
+[6.155774] (yolobot_gazebo) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.159772] (yolobot_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /ai4r_ws/build/yolobot_gazebo\n'}
+[6.176962] (yolobot_gazebo) CommandEnded: {'returncode': 0}
+[6.177633] (yolobot_gazebo) JobProgress: {'identifier': 'yolobot_gazebo', 'progress': 'build'}
+[6.179741] (yolobot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ai4r_ws/build/yolobot_gazebo', '--', '-j12', '-l12'], 'cwd': '/ai4r_ws/build/yolobot_gazebo', 'env': OrderedDict({'HOSTNAME': 'pratik-LOQ-15IRH8', 'GIT_ASKPASS': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-638d2a18-db20-44ac-86eb-419b35aff4a7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b489888f-1dec-4353-990d-8521ccc85459.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-37cea695a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ai4r_ws/build/yolobot_gazebo', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.209943] (-) TimerEvent: {}
+[6.300710] (relbot_video_interface) StdoutLine: {'line': b'writing ../../build/relbot_video_interface/relbot_video_interface.egg-info/PKG-INFO\n'}
+[6.301136] (relbot_video_interface) StdoutLine: {'line': b'writing dependency_links to ../../build/relbot_video_interface/relbot_video_interface.egg-info/dependency_links.txt\n'}
+[6.301405] (relbot_video_interface) StdoutLine: {'line': b'writing entry points to ../../build/relbot_video_interface/relbot_video_interface.egg-info/entry_points.txt\n'}
+[6.301553] (relbot_video_interface) StdoutLine: {'line': b'writing requirements to ../../build/relbot_video_interface/relbot_video_interface.egg-info/requires.txt\n'}
+[6.301681] (relbot_video_interface) StdoutLine: {'line': b'writing top-level names to ../../build/relbot_video_interface/relbot_video_interface.egg-info/top_level.txt\n'}
+[6.302722] (relbot_video_interface) StdoutLine: {'line': b"writing manifest file '../../build/relbot_video_interface/relbot_video_interface.egg-info/SOURCES.txt'\n"}
+[6.310017] (-) TimerEvent: {}
+[6.375186] (yolobot_gazebo) CommandEnded: {'returncode': 0}
+[6.375624] (yolobot_gazebo) JobProgress: {'identifier': 'yolobot_gazebo', 'progress': 'install'}
+[6.408831] (yolobot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ai4r_ws/build/yolobot_gazebo'], 'cwd': '/ai4r_ws/build/yolobot_gazebo', 'env': OrderedDict({'HOSTNAME': 'pratik-LOQ-15IRH8', 'GIT_ASKPASS': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-638d2a18-db20-44ac-86eb-419b35aff4a7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b489888f-1dec-4353-990d-8521ccc85459.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-37cea695a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ai4r_ws/build/yolobot_gazebo', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.410899] (-) TimerEvent: {}
+[6.420507] (yolobot_recognition) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.430573] (yolobot_recognition) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.430787] (yolobot_recognition) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[6.431619] (yolobot_recognition) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.449847] (yolobot_recognition) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.450076] (yolobot_recognition) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.471802] (yolobot_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.472047] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/yolobot_gazebo//launch\n'}
+[6.472160] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/yolobot_gazebo//launch/yolobot_launch.py\n'}
+[6.474592] (yolobot_recognition) StdoutLine: {'line': b'-- Configuring done (4.6s)\n'}
+[6.478751] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/yolobot_gazebo//launch/start_world_launch.py\n'}
+[6.481888] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/yolobot_gazebo//worlds\n'}
+[6.482078] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/yolobot_gazebo//worlds/yolo_test.world\n'}
+[6.486036] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/ament_index/resource_index/package_run_dependencies/yolobot_gazebo\n'}
+[6.487407] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/ament_index/resource_index/parent_prefix_path/yolobot_gazebo\n'}
+[6.487549] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/yolobot_gazebo/environment/ament_prefix_path.sh\n'}
+[6.487654] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/yolobot_gazebo/environment/ament_prefix_path.dsv\n'}
+[6.487764] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/yolobot_gazebo/environment/path.sh\n'}
+[6.487864] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/yolobot_gazebo/environment/path.dsv\n'}
+[6.487961] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/yolobot_gazebo/local_setup.bash\n'}
+[6.488061] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/yolobot_gazebo/local_setup.sh\n'}
+[6.488215] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/yolobot_gazebo/local_setup.zsh\n'}
+[6.488335] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/yolobot_gazebo/local_setup.dsv\n'}
+[6.488448] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/yolobot_gazebo/package.dsv\n'}
+[6.488563] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/ament_index/resource_index/packages/yolobot_gazebo\n'}
+[6.488862] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/yolobot_gazebo/cmake/yolobot_gazeboConfig.cmake\n'}
+[6.488995] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/yolobot_gazebo/cmake/yolobot_gazeboConfig-version.cmake\n'}
+[6.489105] (yolobot_gazebo) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_gazebo/share/yolobot_gazebo/package.xml\n'}
+[6.501571] (yolobot_gazebo) CommandEnded: {'returncode': 0}
+[6.504577] (yolobot_recognition) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.521355] (-) TimerEvent: {}
+[6.532839] (yolobot_recognition) StdoutLine: {'line': b'-- Build files have been written to: /ai4r_ws/build/yolobot_recognition\n'}
+[6.566123] (yolobot_gazebo) JobEnded: {'identifier': 'yolobot_gazebo', 'rc': 0}
+[6.594876] (yolobot_recognition) CommandEnded: {'returncode': 0}
+[6.595289] (yolobot_recognition) JobProgress: {'identifier': 'yolobot_recognition', 'progress': 'build'}
+[6.595325] (yolobot_recognition) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ai4r_ws/build/yolobot_recognition', '--', '-j12', '-l12'], 'cwd': '/ai4r_ws/build/yolobot_recognition', 'env': OrderedDict({'HOSTNAME': 'pratik-LOQ-15IRH8', 'GIT_ASKPASS': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-638d2a18-db20-44ac-86eb-419b35aff4a7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b489888f-1dec-4353-990d-8521ccc85459.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-37cea695a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ai4r_ws/build/yolobot_recognition', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.621471] (-) TimerEvent: {}
+[6.716803] (relbot_video_interface) StdoutLine: {'line': b"reading manifest file '../../build/relbot_video_interface/relbot_video_interface.egg-info/SOURCES.txt'\n"}
+[6.721574] (-) TimerEvent: {}
+[6.725181] (relbot_video_interface) StdoutLine: {'line': b"writing manifest file '../../build/relbot_video_interface/relbot_video_interface.egg-info/SOURCES.txt'\n"}
+[6.725521] (relbot_video_interface) StdoutLine: {'line': b'running build\n'}
+[6.725644] (relbot_video_interface) StdoutLine: {'line': b'running build_py\n'}
+[6.725816] (relbot_video_interface) StdoutLine: {'line': b'creating /ai4r_ws/build/relbot_video_interface/build\n'}
+[6.726008] (relbot_video_interface) StdoutLine: {'line': b'creating /ai4r_ws/build/relbot_video_interface/build/lib\n'}
+[6.726145] (relbot_video_interface) StdoutLine: {'line': b'creating /ai4r_ws/build/relbot_video_interface/build/lib/relbot_video_interface\n'}
+[6.726285] (relbot_video_interface) StdoutLine: {'line': b'copying relbot_video_interface/video_interface_node.py -> /ai4r_ws/build/relbot_video_interface/build/lib/relbot_video_interface\n'}
+[6.732597] (relbot_video_interface) StdoutLine: {'line': b'copying relbot_video_interface/__init__.py -> /ai4r_ws/build/relbot_video_interface/build/lib/relbot_video_interface\n'}
+[6.732927] (relbot_video_interface) StdoutLine: {'line': b'running install\n'}
+[6.764113] (yolobot_recognition) CommandEnded: {'returncode': 0}
+[6.764506] (yolobot_recognition) JobProgress: {'identifier': 'yolobot_recognition', 'progress': 'install'}
+[6.764538] (yolobot_recognition) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ai4r_ws/build/yolobot_recognition'], 'cwd': '/ai4r_ws/build/yolobot_recognition', 'env': OrderedDict({'HOSTNAME': 'pratik-LOQ-15IRH8', 'GIT_ASKPASS': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-638d2a18-db20-44ac-86eb-419b35aff4a7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b489888f-1dec-4353-990d-8521ccc85459.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-37cea695a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ai4r_ws/build/yolobot_recognition', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.781931] (yolobot_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.783869] (yolobot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.784082] (yolobot_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[6.790845] (yolobot_recognition) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.791145] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//scripts\n'}
+[6.791315] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov8_ros2_subscriber.py\n'}
+[6.796784] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov8n.pt\n'}
+[6.798959] (relbot_video_interface) StdoutLine: {'line': b'running install_lib\n'}
+[6.800882] (yolobot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.802166] (yolobot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.805787] (yolobot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.820535] (yolobot_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.822744] (-) TimerEvent: {}
+[6.823961] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/.gitignore\n'}
+[6.824522] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/.gitattributes\n'}
+[6.825382] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/.dockerignore\n'}
+[6.825769] (yolobot_description) StdoutLine: {'line': b'-- Configuring done (4.9s)\n'}
+[6.826013] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov8_ros2_pt.py\n'}
+[6.829059] (yolobot_control) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.829260] (yolobot_control) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[6.829739] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//launch\n'}
+[6.829895] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//launch/launch_yolov8.launch.py\n'}
+[6.832050] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/lib/yolobot_recognition/yolov8_ros2_pt.py\n'}
+[6.832276] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/lib/yolobot_recognition/yolov8_ros2_subscriber.py\n'}
+[6.832391] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/lib/yolobot_recognition/launch_yolov8.launch.py\n'}
+[6.832493] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/ament_index/resource_index/package_run_dependencies/yolobot_recognition\n'}
+[6.832651] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/ament_index/resource_index/parent_prefix_path/yolobot_recognition\n'}
+[6.833867] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/environment/ament_prefix_path.sh\n'}
+[6.834071] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/environment/ament_prefix_path.dsv\n'}
+[6.834617] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/environment/path.sh\n'}
+[6.837440] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/environment/path.dsv\n'}
+[6.837712] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.bash\n'}
+[6.837836] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.sh\n'}
+[6.837930] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.zsh\n'}
+[6.838021] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.dsv\n'}
+[6.838111] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/package.dsv\n'}
+[6.838213] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/ament_index/resource_index/packages/yolobot_recognition\n'}
+[6.838312] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/cmake/yolobot_recognitionConfig.cmake\n'}
+[6.838407] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/cmake/yolobot_recognitionConfig-version.cmake\n'}
+[6.838500] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/package.xml\n'}
+[6.839338] (yolobot_recognition) CommandEnded: {'returncode': 0}
+[6.844154] (yolobot_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.845385] (yolobot_control) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.861725] (yolobot_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.876771] (yolobot_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.880912] (yolobot_control) StdoutLine: {'line': b'-- Configuring done (5.0s)\n'}
+[6.881677] (yolobot_description) StdoutLine: {'line': b'-- Build files have been written to: /ai4r_ws/build/yolobot_description\n'}
+[6.899218] (yolobot_control) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.902365] (yolobot_recognition) JobEnded: {'identifier': 'yolobot_recognition', 'rc': 0}
+[6.915739] (yolobot_description) CommandEnded: {'returncode': 0}
+[6.916180] (yolobot_description) JobProgress: {'identifier': 'yolobot_description', 'progress': 'build'}
+[6.916219] (yolobot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ai4r_ws/build/yolobot_description', '--', '-j12', '-l12'], 'cwd': '/ai4r_ws/build/yolobot_description', 'env': OrderedDict({'HOSTNAME': 'pratik-LOQ-15IRH8', 'GIT_ASKPASS': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-638d2a18-db20-44ac-86eb-419b35aff4a7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b489888f-1dec-4353-990d-8521ccc85459.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-37cea695a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ai4r_ws/build/yolobot_description', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.922838] (-) TimerEvent: {}
+[6.929714] (yolobot_control) StdoutLine: {'line': b'-- Build files have been written to: /ai4r_ws/build/yolobot_control\n'}
+[6.972702] (relbot_video_interface) StdoutLine: {'line': b'creating /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface\n'}
+[6.972947] (relbot_video_interface) StdoutLine: {'line': b'copying /ai4r_ws/build/relbot_video_interface/build/lib/relbot_video_interface/video_interface_node.py -> /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface\n'}
+[6.977585] (relbot_video_interface) StdoutLine: {'line': b'copying /ai4r_ws/build/relbot_video_interface/build/lib/relbot_video_interface/__init__.py -> /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface\n'}
+[6.977840] (relbot_video_interface) StdoutLine: {'line': b'byte-compiling /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface/video_interface_node.py to video_interface_node.cpython-312.pyc\n'}
+[6.982168] (relbot_video_interface) StdoutLine: {'line': b'byte-compiling /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface/__init__.py to __init__.cpython-312.pyc\n'}
+[6.983680] (relbot_video_interface) StdoutLine: {'line': b'running install_data\n'}
+[6.986521] (relbot_video_interface) StdoutLine: {'line': b'creating /ai4r_ws/install/relbot_video_interface/share/ament_index\n'}
+[6.986914] (relbot_video_interface) StdoutLine: {'line': b'creating /ai4r_ws/install/relbot_video_interface/share/ament_index/resource_index\n'}
+[6.987100] (yolobot_control) CommandEnded: {'returncode': 0}
+[6.988518] (yolobot_control) JobProgress: {'identifier': 'yolobot_control', 'progress': 'build'}
+[6.988582] (yolobot_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ai4r_ws/build/yolobot_control', '--', '-j12', '-l12'], 'cwd': '/ai4r_ws/build/yolobot_control', 'env': OrderedDict({'HOSTNAME': 'pratik-LOQ-15IRH8', 'GIT_ASKPASS': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-638d2a18-db20-44ac-86eb-419b35aff4a7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b489888f-1dec-4353-990d-8521ccc85459.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-37cea695a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ai4r_ws/build/yolobot_control', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.989505] (relbot_video_interface) StdoutLine: {'line': b'creating /ai4r_ws/install/relbot_video_interface/share/ament_index/resource_index/packages\n'}
+[6.991563] (relbot_video_interface) StdoutLine: {'line': b'copying resource/relbot_video_interface -> /ai4r_ws/install/relbot_video_interface/share/ament_index/resource_index/packages\n'}
+[6.991785] (relbot_video_interface) StdoutLine: {'line': b'copying package.xml -> /ai4r_ws/install/relbot_video_interface/share/relbot_video_interface\n'}
+[6.991966] (relbot_video_interface) StdoutLine: {'line': b'creating /ai4r_ws/install/relbot_video_interface/share/relbot_video_interface/launch\n'}
+[6.992155] (relbot_video_interface) StdoutLine: {'line': b'copying launch/video_interface.launch.py -> /ai4r_ws/install/relbot_video_interface/share/relbot_video_interface/launch\n'}
+[6.994322] (relbot_video_interface) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.028751] (-) TimerEvent: {}
+[7.129074] (-) TimerEvent: {}
+[7.187823] (relbot_video_interface) StdoutLine: {'line': b'Copying ../../build/relbot_video_interface/relbot_video_interface.egg-info to /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface-0.1.0-py3.12.egg-info\n'}
+[7.208434] (relbot_video_interface) StdoutLine: {'line': b'running install_scripts\n'}
+[7.229172] (-) TimerEvent: {}
+[7.240867] (yolobot_control) CommandEnded: {'returncode': 0}
+[7.241641] (yolobot_control) JobProgress: {'identifier': 'yolobot_control', 'progress': 'install'}
+[7.242228] (yolobot_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ai4r_ws/build/yolobot_control'], 'cwd': '/ai4r_ws/build/yolobot_control', 'env': OrderedDict({'HOSTNAME': 'pratik-LOQ-15IRH8', 'GIT_ASKPASS': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-638d2a18-db20-44ac-86eb-419b35aff4a7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b489888f-1dec-4353-990d-8521ccc85459.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-37cea695a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ai4r_ws/build/yolobot_control', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.254751] (yolobot_description) CommandEnded: {'returncode': 0}
+[7.255193] (yolobot_description) JobProgress: {'identifier': 'yolobot_description', 'progress': 'install'}
+[7.255225] (yolobot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ai4r_ws/build/yolobot_description'], 'cwd': '/ai4r_ws/build/yolobot_description', 'env': OrderedDict({'HOSTNAME': 'pratik-LOQ-15IRH8', 'GIT_ASKPASS': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-638d2a18-db20-44ac-86eb-419b35aff4a7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b489888f-1dec-4353-990d-8521ccc85459.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-37cea695a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ai4r_ws/build/yolobot_description', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.271748] (yolobot_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.272040] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/yolobot_control//scripts\n'}
+[7.273050] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/yolobot_control//scripts/robot_control.py\n'}
+[7.274029] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/yolobot_control//launch\n'}
+[7.274377] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/yolobot_control//launch/yolobot_control.launch.py\n'}
+[7.274981] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/lib/yolobot_control/robot_control.py\n'}
+[7.275681] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/lib/yolobot_control/yolobot_control.launch.py\n'}
+[7.287864] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/ament_index/resource_index/package_run_dependencies/yolobot_control\n'}
+[7.288075] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/ament_index/resource_index/parent_prefix_path/yolobot_control\n'}
+[7.288195] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/yolobot_control/environment/ament_prefix_path.sh\n'}
+[7.288300] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/yolobot_control/environment/ament_prefix_path.dsv\n'}
+[7.288398] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/yolobot_control/environment/path.sh\n'}
+[7.288498] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/yolobot_control/environment/path.dsv\n'}
+[7.288596] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/yolobot_control/local_setup.bash\n'}
+[7.288698] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/yolobot_control/local_setup.sh\n'}
+[7.288810] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/yolobot_control/local_setup.zsh\n'}
+[7.288906] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/yolobot_control/local_setup.dsv\n'}
+[7.289003] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/yolobot_control/package.dsv\n'}
+[7.289092] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/ament_index/resource_index/packages/yolobot_control\n'}
+[7.289183] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/yolobot_control/cmake/yolobot_controlConfig.cmake\n'}
+[7.289273] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/yolobot_control/cmake/yolobot_controlConfig-version.cmake\n'}
+[7.289368] (yolobot_control) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_control/share/yolobot_control/package.xml\n'}
+[7.301703] (yolobot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.301884] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/yolobot_description//launch\n'}
+[7.301998] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/yolobot_description//launch/spawn_yolobot.py\n'}
+[7.302105] (yolobot_control) CommandEnded: {'returncode': 0}
+[7.310117] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/yolobot_description//launch/spawn_yolobot_launch.launch.py\n'}
+[7.310324] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/yolobot_description//robot\n'}
+[7.310450] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/yolobot_description//robot/yolobot.urdf\n'}
+[7.310550] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/lib/yolobot_description/spawn_yolobot.py\n'}
+[7.311786] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/ament_index/resource_index/package_run_dependencies/yolobot_description\n'}
+[7.311896] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/ament_index/resource_index/parent_prefix_path/yolobot_description\n'}
+[7.311993] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/yolobot_description/environment/ament_prefix_path.sh\n'}
+[7.312092] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/yolobot_description/environment/ament_prefix_path.dsv\n'}
+[7.312189] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/yolobot_description/environment/path.sh\n'}
+[7.312287] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/yolobot_description/environment/path.dsv\n'}
+[7.312389] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/yolobot_description/local_setup.bash\n'}
+[7.312482] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/yolobot_description/local_setup.sh\n'}
+[7.312572] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/yolobot_description/local_setup.zsh\n'}
+[7.312667] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/yolobot_description/local_setup.dsv\n'}
+[7.320833] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/yolobot_description/package.dsv\n'}
+[7.321044] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/ament_index/resource_index/packages/yolobot_description\n'}
+[7.321172] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/yolobot_description/cmake/yolobot_descriptionConfig.cmake\n'}
+[7.328780] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/yolobot_description/cmake/yolobot_descriptionConfig-version.cmake\n'}
+[7.328963] (yolobot_description) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolobot_description/share/yolobot_description/package.xml\n'}
+[7.343795] (-) TimerEvent: {}
+[7.363065] (yolobot_control) JobEnded: {'identifier': 'yolobot_control', 'rc': 0}
+[7.364186] (yolobot_description) CommandEnded: {'returncode': 0}
+[7.417503] (yolobot_description) JobEnded: {'identifier': 'yolobot_description', 'rc': 0}
+[7.444682] (-) TimerEvent: {}
+[7.545874] (-) TimerEvent: {}
+[7.648756] (-) TimerEvent: {}
+[7.749363] (-) TimerEvent: {}
+[7.849687] (-) TimerEvent: {}
+[7.950283] (-) TimerEvent: {}
+[8.051756] (-) TimerEvent: {}
+[8.116746] (relbot_video_interface) StdoutLine: {'line': b'Installing video_interface script to /ai4r_ws/install/relbot_video_interface/lib/relbot_video_interface\n'}
+[8.117734] (relbot_video_interface) StdoutLine: {'line': b"writing list of installed files to '/ai4r_ws/build/relbot_video_interface/install.log'\n"}
+[8.151859] (-) TimerEvent: {}
+[8.254750] (-) TimerEvent: {}
+[8.355076] (-) TimerEvent: {}
+[8.372682] (relbot_video_interface) CommandEnded: {'returncode': 0}
+[8.392738] (relbot_video_interface) JobEnded: {'identifier': 'relbot_video_interface', 'rc': 0}
+[8.455184] (-) TimerEvent: {}
+[8.559754] (-) TimerEvent: {}
+[8.660059] (-) TimerEvent: {}
+[8.760665] (-) TimerEvent: {}
+[8.864749] (-) TimerEvent: {}
+[8.965038] (-) TimerEvent: {}
+[9.065331] (-) TimerEvent: {}
+[9.168754] (-) TimerEvent: {}
+[9.196603] (yolov8_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[9.268852] (-) TimerEvent: {}
+[9.369162] (-) TimerEvent: {}
+[9.469740] (-) TimerEvent: {}
+[9.572753] (-) TimerEvent: {}
+[9.673311] (-) TimerEvent: {}
+[9.773975] (-) TimerEvent: {}
+[9.874555] (-) TimerEvent: {}
+[9.974875] (-) TimerEvent: {}
+[10.077800] (-) TimerEvent: {}
+[10.178128] (-) TimerEvent: {}
+[10.278462] (-) TimerEvent: {}
+[10.382750] (-) TimerEvent: {}
+[10.483063] (-) TimerEvent: {}
+[10.583361] (-) TimerEvent: {}
+[10.683666] (-) TimerEvent: {}
+[10.786744] (-) TimerEvent: {}
+[10.887249] (-) TimerEvent: {}
+[10.990745] (-) TimerEvent: {}
+[11.093754] (-) TimerEvent: {}
+[11.194082] (-) TimerEvent: {}
+[11.294655] (-) TimerEvent: {}
+[11.397578] (-) TimerEvent: {}
+[11.497889] (-) TimerEvent: {}
+[11.598171] (-) TimerEvent: {}
+[11.698466] (-) TimerEvent: {}
+[11.798765] (-) TimerEvent: {}
+[11.899073] (-) TimerEvent: {}
+[11.999382] (-) TimerEvent: {}
+[12.099686] (-) TimerEvent: {}
+[12.202781] (-) TimerEvent: {}
+[12.303752] (-) TimerEvent: {}
+[12.360896] (yolov8_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.416766] (-) TimerEvent: {}
+[12.517061] (-) TimerEvent: {}
+[12.620748] (-) TimerEvent: {}
+[12.721962] (-) TimerEvent: {}
+[12.824760] (-) TimerEvent: {}
+[12.925073] (-) TimerEvent: {}
+[13.025398] (-) TimerEvent: {}
+[13.127748] (-) TimerEvent: {}
+[13.231758] (-) TimerEvent: {}
+[13.255997] (yolov8_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.274747] (yolov8_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[13.331849] (-) TimerEvent: {}
+[13.435755] (-) TimerEvent: {}
+[13.536093] (-) TimerEvent: {}
+[13.636807] (-) TimerEvent: {}
+[13.739741] (-) TimerEvent: {}
+[13.840034] (-) TimerEvent: {}
+[13.925816] (yolov8_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[13.940146] (-) TimerEvent: {}
+[14.040742] (-) TimerEvent: {}
+[14.141333] (-) TimerEvent: {}
+[14.241944] (-) TimerEvent: {}
+[14.342269] (-) TimerEvent: {}
+[14.442855] (-) TimerEvent: {}
+[14.546849] (-) TimerEvent: {}
+[14.647160] (-) TimerEvent: {}
+[14.747476] (-) TimerEvent: {}
+[14.847819] (-) TimerEvent: {}
+[14.948145] (-) TimerEvent: {}
+[15.048705] (-) TimerEvent: {}
+[15.151617] (-) TimerEvent: {}
+[15.255742] (-) TimerEvent: {}
+[15.359767] (-) TimerEvent: {}
+[15.460085] (-) TimerEvent: {}
+[15.560743] (-) TimerEvent: {}
+[15.661048] (-) TimerEvent: {}
+[15.702609] (yolov8_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[15.761770] (-) TimerEvent: {}
+[15.863368] (-) TimerEvent: {}
+[15.866643] (yolov8_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[15.966758] (-) TimerEvent: {}
+[16.067184] (-) TimerEvent: {}
+[16.080827] (yolov8_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[16.081081] (yolov8_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.081198] (yolov8_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.102467] (yolov8_msgs) StdoutLine: {'line': b'-- Configuring done (14.2s)\n'}
+[16.167279] (-) TimerEvent: {}
+[16.267578] (-) TimerEvent: {}
+[16.371758] (-) TimerEvent: {}
+[16.446216] (yolov8_msgs) StdoutLine: {'line': b'-- Generating done (0.3s)\n'}
+[16.471842] (-) TimerEvent: {}
+[16.560515] (yolov8_msgs) StdoutLine: {'line': b'-- Build files have been written to: /ai4r_ws/build/yolov8_msgs\n'}
+[16.571925] (-) TimerEvent: {}
+[16.636195] (yolov8_msgs) CommandEnded: {'returncode': 0}
+[16.636605] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'build'}
+[16.636639] (yolov8_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ai4r_ws/build/yolov8_msgs', '--', '-j12', '-l12'], 'cwd': '/ai4r_ws/build/yolov8_msgs', 'env': OrderedDict({'HOSTNAME': 'pratik-LOQ-15IRH8', 'GIT_ASKPASS': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-638d2a18-db20-44ac-86eb-419b35aff4a7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b489888f-1dec-4353-990d-8521ccc85459.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-37cea695a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ai4r_ws/build/yolov8_msgs', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[16.675096] (-) TimerEvent: {}
+[16.775407] (-) TimerEvent: {}
+[16.865164] (yolov8_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[16.878915] (-) TimerEvent: {}
+[16.981751] (-) TimerEvent: {}
+[17.084745] (-) TimerEvent: {}
+[17.188749] (-) TimerEvent: {}
+[17.289072] (-) TimerEvent: {}
+[17.389389] (-) TimerEvent: {}
+[17.489851] (-) TimerEvent: {}
+[17.590160] (-) TimerEvent: {}
+[17.641124] (yolov8_msgs) StdoutLine: {'line': b'[  2%] Built target yolov8_msgs__rosidl_generator_type_description\n'}
+[17.690268] (-) TimerEvent: {}
+[17.731355] (yolov8_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_yolov8_msgs\n'}
+[17.777806] (yolov8_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[17.793738] (-) TimerEvent: {}
+[17.894041] (-) TimerEvent: {}
+[17.996001] (-) TimerEvent: {}
+[18.096563] (-) TimerEvent: {}
+[18.198753] (-) TimerEvent: {}
+[18.302752] (-) TimerEvent: {}
+[18.403347] (-) TimerEvent: {}
+[18.504764] (-) TimerEvent: {}
+[18.605084] (-) TimerEvent: {}
+[18.705404] (-) TimerEvent: {}
+[18.805723] (-) TimerEvent: {}
+[18.906309] (-) TimerEvent: {}
+[19.010645] (-) TimerEvent: {}
+[19.110980] (-) TimerEvent: {}
+[19.211327] (-) TimerEvent: {}
+[19.311664] (-) TimerEvent: {}
+[19.419864] (-) TimerEvent: {}
+[19.520209] (-) TimerEvent: {}
+[19.620526] (-) TimerEvent: {}
+[19.698538] (yolov8_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/inference_result__description.c.o\x1b[0m\n'}
+[19.720639] (-) TimerEvent: {}
+[19.825806] (-) TimerEvent: {}
+[19.833636] (yolov8_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/yolov8_inference__type_support.c.o\x1b[0m\n'}
+[19.929759] (-) TimerEvent: {}
+[19.991850] (yolov8_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/yolov8_inference__functions.c.o\x1b[0m\n'}
+[20.029873] (-) TimerEvent: {}
+[20.130210] (-) TimerEvent: {}
+[20.204744] (yolov8_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/yolov8_inference__description.c.o\x1b[0m\n'}
+[20.231750] (-) TimerEvent: {}
+[20.332082] (-) TimerEvent: {}
+[20.432406] (-) TimerEvent: {}
+[20.508663] (yolov8_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/inference_result__type_support.c.o\x1b[0m\n'}
+[20.532508] (-) TimerEvent: {}
+[20.632834] (-) TimerEvent: {}
+[20.641728] (yolov8_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/inference_result__functions.c.o\x1b[0m\n'}
+[20.734765] (-) TimerEvent: {}
+[20.773037] (yolov8_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libyolov8_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[20.834873] (-) TimerEvent: {}
+[20.911860] (yolov8_msgs) StdoutLine: {'line': b'[ 20%] Built target yolov8_msgs__rosidl_generator_c\n'}
+[20.934987] (-) TimerEvent: {}
+[21.036107] (-) TimerEvent: {}
+[21.136468] (-) TimerEvent: {}
+[21.236837] (-) TimerEvent: {}
+[21.337503] (-) TimerEvent: {}
+[21.438085] (-) TimerEvent: {}
+[21.541893] (-) TimerEvent: {}
+[21.642639] (-) TimerEvent: {}
+[21.746758] (-) TimerEvent: {}
+[21.847117] (-) TimerEvent: {}
+[21.947468] (-) TimerEvent: {}
+[22.047831] (-) TimerEvent: {}
+[22.148187] (-) TimerEvent: {}
+[22.252809] (-) TimerEvent: {}
+[22.353216] (-) TimerEvent: {}
+[22.455780] (-) TimerEvent: {}
+[22.478682] (yolov8_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[22.486204] (yolov8_msgs) StdoutLine: {'line': b'creating yolov8_msgs.egg-info\n'}
+[22.558743] (-) TimerEvent: {}
+[22.564823] (yolov8_msgs) StdoutLine: {'line': b'writing yolov8_msgs.egg-info/PKG-INFO\n'}
+[22.567114] (yolov8_msgs) StdoutLine: {'line': b'writing dependency_links to yolov8_msgs.egg-info/dependency_links.txt\n'}
+[22.578735] (yolov8_msgs) StdoutLine: {'line': b'writing top-level names to yolov8_msgs.egg-info/top_level.txt\n'}
+[22.578974] (yolov8_msgs) StdoutLine: {'line': b"writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'\n"}
+[22.658834] (-) TimerEvent: {}
+[22.759122] (-) TimerEvent: {}
+[22.859439] (-) TimerEvent: {}
+[22.931974] (yolov8_msgs) StdoutLine: {'line': b"reading manifest file 'yolov8_msgs.egg-info/SOURCES.txt'\n"}
+[22.936218] (yolov8_msgs) StdoutLine: {'line': b"writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'\n"}
+[22.959540] (-) TimerEvent: {}
+[23.059804] (yolov8_msgs) StdoutLine: {'line': b'[ 20%] Built target ament_cmake_python_build_yolov8_msgs_egg\n'}
+[23.060060] (-) TimerEvent: {}
+[23.103832] (yolov8_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[23.160188] (-) TimerEvent: {}
+[23.260533] (-) TimerEvent: {}
+[23.363748] (-) TimerEvent: {}
+[23.464047] (-) TimerEvent: {}
+[23.564357] (-) TimerEvent: {}
+[23.664683] (-) TimerEvent: {}
+[23.768761] (-) TimerEvent: {}
+[23.872769] (-) TimerEvent: {}
+[23.975751] (-) TimerEvent: {}
+[24.076340] (-) TimerEvent: {}
+[24.177001] (-) TimerEvent: {}
+[24.280763] (-) TimerEvent: {}
+[24.384759] (-) TimerEvent: {}
+[24.485606] (-) TimerEvent: {}
+[24.585933] (-) TimerEvent: {}
+[24.689761] (-) TimerEvent: {}
+[24.708017] (yolov8_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/inference_result__type_support.cpp.o\x1b[0m\n'}
+[24.792754] (-) TimerEvent: {}
+[24.893089] (-) TimerEvent: {}
+[24.896994] (yolov8_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/yolov8_inference__type_support.cpp.o\x1b[0m\n'}
+[24.993202] (-) TimerEvent: {}
+[25.096766] (-) TimerEvent: {}
+[25.149833] (yolov8_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[25.196884] (-) TimerEvent: {}
+[25.297303] (-) TimerEvent: {}
+[25.397633] (-) TimerEvent: {}
+[25.425732] (yolov8_msgs) StdoutLine: {'line': b'[ 29%] Built target yolov8_msgs__rosidl_typesupport_c\n'}
+[25.460515] (yolov8_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[25.497735] (-) TimerEvent: {}
+[25.600756] (-) TimerEvent: {}
+[25.701071] (-) TimerEvent: {}
+[25.801622] (-) TimerEvent: {}
+[25.911750] (-) TimerEvent: {}
+[26.014760] (-) TimerEvent: {}
+[26.115077] (-) TimerEvent: {}
+[26.215382] (-) TimerEvent: {}
+[26.315705] (-) TimerEvent: {}
+[26.418759] (-) TimerEvent: {}
+[26.522759] (-) TimerEvent: {}
+[26.624756] (-) TimerEvent: {}
+[26.725089] (-) TimerEvent: {}
+[26.825407] (-) TimerEvent: {}
+[26.928116] (-) TimerEvent: {}
+[27.028482] (-) TimerEvent: {}
+[27.116268] (yolov8_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/inference_result__type_support.c.o\x1b[0m\n'}
+[27.128598] (-) TimerEvent: {}
+[27.198295] (yolov8_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/yolov8_inference__type_support.c.o\x1b[0m\n'}
+[27.228719] (-) TimerEvent: {}
+[27.330941] (-) TimerEvent: {}
+[27.346983] (yolov8_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking C shared library libyolov8_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[27.431054] (-) TimerEvent: {}
+[27.531399] (-) TimerEvent: {}
+[27.537956] (yolov8_msgs) StdoutLine: {'line': b'[ 38%] Built target yolov8_msgs__rosidl_typesupport_introspection_c\n'}
+[27.573397] (yolov8_msgs) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[27.634002] (-) TimerEvent: {}
+[27.734517] (-) TimerEvent: {}
+[27.842753] (-) TimerEvent: {}
+[27.943589] (-) TimerEvent: {}
+[28.043950] (-) TimerEvent: {}
+[28.144256] (-) TimerEvent: {}
+[28.244755] (-) TimerEvent: {}
+[28.345078] (-) TimerEvent: {}
+[28.445687] (-) TimerEvent: {}
+[28.532479] (yolov8_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/inference_result__type_support_c.cpp.o\x1b[0m\n'}
+[28.547738] (-) TimerEvent: {}
+[28.648352] (-) TimerEvent: {}
+[28.750761] (-) TimerEvent: {}
+[28.851096] (-) TimerEvent: {}
+[28.953757] (-) TimerEvent: {}
+[29.054372] (-) TimerEvent: {}
+[29.155022] (-) TimerEvent: {}
+[29.258770] (-) TimerEvent: {}
+[29.359105] (-) TimerEvent: {}
+[29.465759] (-) TimerEvent: {}
+[29.568760] (-) TimerEvent: {}
+[29.669083] (-) TimerEvent: {}
+[29.771761] (-) TimerEvent: {}
+[29.872092] (-) TimerEvent: {}
+[29.972448] (-) TimerEvent: {}
+[30.072833] (-) TimerEvent: {}
+[30.176758] (-) TimerEvent: {}
+[30.277089] (-) TimerEvent: {}
+[30.377413] (-) TimerEvent: {}
+[30.481759] (-) TimerEvent: {}
+[30.582085] (-) TimerEvent: {}
+[30.682430] (-) TimerEvent: {}
+[30.784759] (-) TimerEvent: {}
+[30.885088] (-) TimerEvent: {}
+[30.985713] (-) TimerEvent: {}
+[31.092761] (-) TimerEvent: {}
+[31.193088] (-) TimerEvent: {}
+[31.293422] (-) TimerEvent: {}
+[31.397778] (-) TimerEvent: {}
+[31.501767] (-) TimerEvent: {}
+[31.602117] (-) TimerEvent: {}
+[31.661816] (yolov8_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/yolov8_inference__type_support_c.cpp.o\x1b[0m\n'}
+[31.702230] (-) TimerEvent: {}
+[31.802869] (-) TimerEvent: {}
+[31.903231] (-) TimerEvent: {}
+[32.007425] (-) TimerEvent: {}
+[32.108765] (-) TimerEvent: {}
+[32.210194] (-) TimerEvent: {}
+[32.315289] (-) TimerEvent: {}
+[32.415642] (-) TimerEvent: {}
+[32.516010] (-) TimerEvent: {}
+[32.616521] (-) TimerEvent: {}
+[32.716870] (-) TimerEvent: {}
+[32.819767] (-) TimerEvent: {}
+[32.922760] (-) TimerEvent: {}
+[33.023105] (-) TimerEvent: {}
+[33.123474] (-) TimerEvent: {}
+[33.257764] (-) TimerEvent: {}
+[33.358115] (-) TimerEvent: {}
+[33.458464] (-) TimerEvent: {}
+[33.559757] (-) TimerEvent: {}
+[33.663510] (-) TimerEvent: {}
+[33.736371] (yolov8_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[33.763620] (-) TimerEvent: {}
+[33.863951] (-) TimerEvent: {}
+[33.964534] (-) TimerEvent: {}
+[34.064877] (-) TimerEvent: {}
+[34.165227] (-) TimerEvent: {}
+[34.200137] (yolov8_msgs) StdoutLine: {'line': b'[ 47%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c\n'}
+[34.268570] (-) TimerEvent: {}
+[34.272791] (yolov8_msgs) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[34.368666] (-) TimerEvent: {}
+[34.471750] (-) TimerEvent: {}
+[34.573746] (-) TimerEvent: {}
+[34.674050] (-) TimerEvent: {}
+[34.777751] (-) TimerEvent: {}
+[34.878068] (-) TimerEvent: {}
+[34.982045] (-) TimerEvent: {}
+[35.084761] (-) TimerEvent: {}
+[35.185149] (-) TimerEvent: {}
+[35.285470] (-) TimerEvent: {}
+[35.386008] (-) TimerEvent: {}
+[35.486580] (-) TimerEvent: {}
+[35.587782] (-) TimerEvent: {}
+[35.631013] (yolov8_msgs) StdoutLine: {'line': b'[ 50%] Built target yolov8_msgs__cpp\n'}
+[35.658424] (yolov8_msgs) StdoutLine: {'line': b'[ 52%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[35.687886] (-) TimerEvent: {}
+[35.788406] (-) TimerEvent: {}
+[35.895687] (-) TimerEvent: {}
+[36.003753] (-) TimerEvent: {}
+[36.104155] (-) TimerEvent: {}
+[36.204506] (-) TimerEvent: {}
+[36.305085] (-) TimerEvent: {}
+[36.407659] (-) TimerEvent: {}
+[36.507975] (-) TimerEvent: {}
+[36.610749] (-) TimerEvent: {}
+[36.711280] (-) TimerEvent: {}
+[36.811604] (-) TimerEvent: {}
+[36.911992] (-) TimerEvent: {}
+[37.012842] (-) TimerEvent: {}
+[37.043973] (yolov8_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/inference_result__type_support.cpp.o\x1b[0m\n'}
+[37.116290] (-) TimerEvent: {}
+[37.219765] (-) TimerEvent: {}
+[37.320144] (-) TimerEvent: {}
+[37.420500] (-) TimerEvent: {}
+[37.520862] (-) TimerEvent: {}
+[37.596685] (yolov8_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/yolov8_inference__type_support.cpp.o\x1b[0m\n'}
+[37.620974] (-) TimerEvent: {}
+[37.721493] (-) TimerEvent: {}
+[37.822015] (-) TimerEvent: {}
+[37.925891] (-) TimerEvent: {}
+[38.026455] (-) TimerEvent: {}
+[38.114766] (yolov8_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[38.126557] (-) TimerEvent: {}
+[38.226808] (yolov8_msgs) StdoutLine: {'line': b'[ 59%] Built target yolov8_msgs__rosidl_typesupport_cpp\n'}
+[38.227061] (-) TimerEvent: {}
+[38.265602] (yolov8_msgs) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[38.331750] (-) TimerEvent: {}
+[38.433255] (-) TimerEvent: {}
+[38.543516] (-) TimerEvent: {}
+[38.643874] (-) TimerEvent: {}
+[38.744197] (-) TimerEvent: {}
+[38.844544] (-) TimerEvent: {}
+[38.945271] (-) TimerEvent: {}
+[39.049865] (-) TimerEvent: {}
+[39.152327] (-) TimerEvent: {}
+[39.252681] (-) TimerEvent: {}
+[39.354426] (-) TimerEvent: {}
+[39.444482] (yolov8_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/inference_result__type_support.cpp.o\x1b[0m\n'}
+[39.456527] (-) TimerEvent: {}
+[39.556919] (-) TimerEvent: {}
+[39.657394] (-) TimerEvent: {}
+[39.761966] (-) TimerEvent: {}
+[39.862586] (-) TimerEvent: {}
+[39.963229] (-) TimerEvent: {}
+[40.067759] (-) TimerEvent: {}
+[40.168114] (-) TimerEvent: {}
+[40.270859] (-) TimerEvent: {}
+[40.371207] (-) TimerEvent: {}
+[40.477759] (-) TimerEvent: {}
+[40.580379] (-) TimerEvent: {}
+[40.680722] (-) TimerEvent: {}
+[40.782775] (-) TimerEvent: {}
+[40.885810] (-) TimerEvent: {}
+[40.988759] (-) TimerEvent: {}
+[41.089100] (-) TimerEvent: {}
+[41.189440] (-) TimerEvent: {}
+[41.289759] (-) TimerEvent: {}
+[41.390076] (-) TimerEvent: {}
+[41.490401] (-) TimerEvent: {}
+[41.590730] (-) TimerEvent: {}
+[41.694758] (-) TimerEvent: {}
+[41.795853] (-) TimerEvent: {}
+[41.898740] (yolov8_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/yolov8_inference__type_support.cpp.o\x1b[0m\n'}
+[41.899023] (-) TimerEvent: {}
+[42.001758] (-) TimerEvent: {}
+[42.104395] (-) TimerEvent: {}
+[42.207767] (-) TimerEvent: {}
+[42.311758] (-) TimerEvent: {}
+[42.412080] (-) TimerEvent: {}
+[42.512402] (-) TimerEvent: {}
+[42.612728] (-) TimerEvent: {}
+[42.713045] (-) TimerEvent: {}
+[42.758848] (yolov8_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[42.813156] (-) TimerEvent: {}
+[42.913657] (-) TimerEvent: {}
+[42.982812] (yolov8_msgs) StdoutLine: {'line': b'[ 68%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp\n'}
+[43.013762] (-) TimerEvent: {}
+[43.018477] (yolov8_msgs) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[43.116785] (-) TimerEvent: {}
+[43.219739] (-) TimerEvent: {}
+[43.322741] (-) TimerEvent: {}
+[43.423030] (-) TimerEvent: {}
+[43.523310] (-) TimerEvent: {}
+[43.623596] (-) TimerEvent: {}
+[43.723891] (-) TimerEvent: {}
+[43.854204] (-) TimerEvent: {}
+[43.958204] (-) TimerEvent: {}
+[44.008820] (yolov8_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/inference_result__type_support.cpp.o\x1b[0m\n'}
+[44.058313] (-) TimerEvent: {}
+[44.158635] (-) TimerEvent: {}
+[44.259183] (-) TimerEvent: {}
+[44.359514] (-) TimerEvent: {}
+[44.459842] (-) TimerEvent: {}
+[44.560163] (-) TimerEvent: {}
+[44.660476] (-) TimerEvent: {}
+[44.763874] (-) TimerEvent: {}
+[44.818176] (yolov8_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/yolov8_inference__type_support.cpp.o\x1b[0m\n'}
+[44.863999] (-) TimerEvent: {}
+[44.964775] (-) TimerEvent: {}
+[45.065078] (-) TimerEvent: {}
+[45.165397] (-) TimerEvent: {}
+[45.265731] (-) TimerEvent: {}
+[45.366053] (-) TimerEvent: {}
+[45.466379] (-) TimerEvent: {}
+[45.566688] (-) TimerEvent: {}
+[45.631154] (yolov8_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[45.668756] (-) TimerEvent: {}
+[45.769352] (-) TimerEvent: {}
+[45.875758] (-) TimerEvent: {}
+[45.976078] (-) TimerEvent: {}
+[46.002487] (yolov8_msgs) StdoutLine: {'line': b'[ 77%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[46.076186] (-) TimerEvent: {}
+[46.088092] (yolov8_msgs) StdoutLine: {'line': b'[ 77%] Built target yolov8_msgs\n'}
+[46.176299] (-) TimerEvent: {}
+[46.205830] (yolov8_msgs) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[46.277964] (-) TimerEvent: {}
+[46.385874] (-) TimerEvent: {}
+[46.486428] (-) TimerEvent: {}
+[46.586733] (-) TimerEvent: {}
+[46.687572] (-) TimerEvent: {}
+[46.787877] (-) TimerEvent: {}
+[46.891745] (-) TimerEvent: {}
+[46.992311] (-) TimerEvent: {}
+[47.092756] (-) TimerEvent: {}
+[47.193317] (-) TimerEvent: {}
+[47.293663] (-) TimerEvent: {}
+[47.389518] (yolov8_msgs) StdoutLine: {'line': b'[ 79%] Built target yolov8_msgs__py\n'}
+[47.394362] (-) TimerEvent: {}
+[47.449086] (yolov8_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_inference_result_s.c.o\x1b[0m\n'}
+[47.494473] (-) TimerEvent: {}
+[47.594972] (-) TimerEvent: {}
+[47.695279] (-) TimerEvent: {}
+[47.795570] (-) TimerEvent: {}
+[47.901762] (-) TimerEvent: {}
+[47.915674] (yolov8_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_yolov8_inference_s.c.o\x1b[0m\n'}
+[48.001871] (-) TimerEvent: {}
+[48.102390] (-) TimerEvent: {}
+[48.205755] (-) TimerEvent: {}
+[48.212350] (yolov8_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libyolov8_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[48.305868] (-) TimerEvent: {}
+[48.352367] (yolov8_msgs) StdoutLine: {'line': b'[ 86%] Built target yolov8_msgs__rosidl_generator_py\n'}
+[48.405977] (-) TimerEvent: {}
+[48.425538] (yolov8_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[48.506087] (-) TimerEvent: {}
+[48.606644] (-) TimerEvent: {}
+[48.618296] (yolov8_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[48.663813] (yolov8_msgs) StdoutLine: {'line': b'[ 90%] Built target yolov8_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[48.699676] (yolov8_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[48.706751] (-) TimerEvent: {}
+[48.807304] (-) TimerEvent: {}
+[48.912758] (-) TimerEvent: {}
+[49.013082] (-) TimerEvent: {}
+[49.113408] (-) TimerEvent: {}
+[49.217781] (-) TimerEvent: {}
+[49.318181] (-) TimerEvent: {}
+[49.355803] (yolov8_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[49.420752] (-) TimerEvent: {}
+[49.473982] (yolov8_msgs) StdoutLine: {'line': b'[ 95%] Built target yolov8_msgs_s__rosidl_typesupport_c\n'}
+[49.520861] (-) TimerEvent: {}
+[49.544703] (yolov8_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[49.620974] (-) TimerEvent: {}
+[49.721547] (-) TimerEvent: {}
+[49.727194] (yolov8_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[49.771973] (yolov8_msgs) StdoutLine: {'line': b'[100%] Built target yolov8_msgs_s__rosidl_typesupport_introspection_c\n'}
+[49.788196] (yolov8_msgs) CommandEnded: {'returncode': 0}
+[49.789100] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'install'}
+[49.789395] (yolov8_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ai4r_ws/build/yolov8_msgs'], 'cwd': '/ai4r_ws/build/yolov8_msgs', 'env': OrderedDict({'HOSTNAME': 'pratik-LOQ-15IRH8', 'GIT_ASKPASS': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-638d2a18-db20-44ac-86eb-419b35aff4a7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b489888f-1dec-4353-990d-8521ccc85459.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-37cea695a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b489888f-1dec-4353-990d-8521ccc85459.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ai4r_ws/build/yolov8_msgs', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[49.801694] (yolov8_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[49.802384] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/ament_index/resource_index/rosidl_interfaces/yolov8_msgs\n'}
+[49.803040] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.json\n'}
+[49.803533] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.json\n'}
+[49.804199] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[49.804586] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[49.805075] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[49.805509] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/yolov8_inference.h\n'}
+[49.805679] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/inference_result.h\n'}
+[49.806201] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[49.806558] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.h\n'}
+[49.806722] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__functions.c\n'}
+[49.807064] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.h\n'}
+[49.807603] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__functions.h\n'}
+[49.807771] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__functions.c\n'}
+[49.808306] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.c\n'}
+[49.808484] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.c\n'}
+[49.809028] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__struct.h\n'}
+[49.809192] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__description.c\n'}
+[49.809709] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__functions.h\n'}
+[49.809871] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__description.c\n'}
+[49.810504] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__struct.h\n'}
+[49.810681] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.sh\n'}
+[49.811105] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.dsv\n'}
+[49.812168] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so\n'}
+[49.812388] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/ai4r_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so" to ""\n'}
+[49.812652] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[49.812894] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[49.813115] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[49.813729] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[49.813872] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h\n'}
+[49.814298] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h\n'}
+[49.814477] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[49.815197] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/ai4r_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[49.815550] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[49.815793] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[49.816156] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/inference_result.hpp\n'}
+[49.816307] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/yolov8_inference.hpp\n'}
+[49.816636] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[49.817090] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[49.817468] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__traits.hpp\n'}
+[49.817621] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.hpp\n'}
+[49.817972] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__builder.hpp\n'}
+[49.818511] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__traits.hpp\n'}
+[49.818671] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__struct.hpp\n'}
+[49.819390] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__builder.hpp\n'}
+[49.819754] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__struct.hpp\n'}
+[49.820126] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.hpp\n'}
+[49.820568] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[49.820809] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[49.821038] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[49.821397] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[49.821613] (-) TimerEvent: {}
+[49.821791] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/dds_fastrtps\n'}
+[49.822161] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[49.822570] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[49.823052] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[49.823878] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/ai4r_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[49.824238] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[49.824394] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[49.824625] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[49.824983] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[49.825212] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_c.h\n'}
+[49.825559] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h\n'}
+[49.825913] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.c\n'}
+[49.826303] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.c\n'}
+[49.826785] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so\n'}
+[49.827494] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/ai4r_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[49.828350] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so\n'}
+[49.828555] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/ai4r_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so" to ""\n'}
+[49.828846] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[49.829108] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[49.829316] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[49.829539] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.cpp\n'}
+[49.830106] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp\n'}
+[49.830272] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.cpp\n'}
+[49.830720] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp\n'}
+[49.831699] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[49.831900] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/ai4r_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[49.832176] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so\n'}
+[49.833042] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/ai4r_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[49.833246] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.sh\n'}
+[49.833491] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.dsv\n'}
+[49.834318] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs-0.0.0-py3.12.egg-info\n'}
+[49.834493] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[49.834671] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[49.834782] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[49.834869] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[49.835448] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs\n'}
+[49.835586] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg\n'}
+[49.842237] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_yolov8_inference_s.c\n'}
+[49.844464] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_inference_result.py\n'}
+[49.845020] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_yolov8_inference.py\n'}
+[49.845446] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_inference_result_s.c\n'}
+[49.845828] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/__init__.py\n'}
+[49.846215] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.so\n'}
+[49.846600] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[49.847007] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[49.847362] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[49.847725] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[49.848103] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/__init__.py\n'}
+[49.848439] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[49.925828] (-) TimerEvent: {}
+[49.968182] (yolov8_msgs) StdoutLine: {'line': b"Listing '/ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs'...\n"}
+[49.968433] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/__init__.py'...\n"}
+[49.968561] (yolov8_msgs) StdoutLine: {'line': b"Listing '/ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg'...\n"}
+[49.968662] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/__init__.py'...\n"}
+[49.968783] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_inference_result.py'...\n"}
+[49.968907] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_yolov8_inference.py'...\n"}
+[50.003576] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[50.003827] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[50.003950] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[50.004054] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[50.004156] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.so\n'}
+[50.004250] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[50.004347] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_py.so\n'}
+[50.005157] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/ai4r_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_py.so" to ""\n'}
+[50.005321] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.idl\n'}
+[50.005421] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.idl\n'}
+[50.005564] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.msg\n'}
+[50.015730] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.msg\n'}
+[50.015969] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/ament_index/resource_index/package_run_dependencies/yolov8_msgs\n'}
+[50.016083] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/ament_index/resource_index/parent_prefix_path/yolov8_msgs\n'}
+[50.016184] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.sh\n'}
+[50.016282] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.dsv\n'}
+[50.016375] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.sh\n'}
+[50.016474] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.dsv\n'}
+[50.016570] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.bash\n'}
+[50.016665] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.sh\n'}
+[50.016771] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.zsh\n'}
+[50.016866] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.dsv\n'}
+[50.017049] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv\n'}
+[50.017522] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/ament_index/resource_index/packages/yolov8_msgs\n'}
+[50.018026] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport.cmake\n'}
+[50.018724] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[50.018928] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[50.028194] (-) TimerEvent: {}
+[50.028424] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[50.028609] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cppExport.cmake\n'}
+[50.028774] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[50.028885] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[50.028983] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[50.029076] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[50.029188] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport.cmake\n'}
+[50.029282] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[50.029439] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[50.030856] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[50.031020] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[50.031132] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[50.031239] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport.cmake\n'}
+[50.031643] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[50.031821] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[50.040818] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[50.041063] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[50.041191] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[50.041300] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[50.041394] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[50.041485] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[50.043536] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig.cmake\n'}
+[50.043784] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig-version.cmake\n'}
+[50.043924] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /ai4r_ws/install/yolov8_msgs/share/yolov8_msgs/package.xml\n'}
+[50.066872] (yolov8_msgs) CommandEnded: {'returncode': 0}
+[50.137415] (-) TimerEvent: {}
+[50.143171] (yolov8_msgs) JobEnded: {'identifier': 'yolov8_msgs', 'rc': 0}
+[50.143673] (-) EventReactorShutdown: {}

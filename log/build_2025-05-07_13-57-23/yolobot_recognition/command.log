@@ -1,0 +1,6 @@
+Invoking command in '/ai4r_ws/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /ai4r_ws/src/yolobot/src/yolobot_recognition -DCMAKE_INSTALL_PREFIX=/ai4r_ws/install/yolobot_recognition
+Invoked command in '/ai4r_ws/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /ai4r_ws/src/yolobot/src/yolobot_recognition -DCMAKE_INSTALL_PREFIX=/ai4r_ws/install/yolobot_recognition
+Invoking command in '/ai4r_ws/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /ai4r_ws/build/yolobot_recognition -- -j12 -l12
+Invoked command in '/ai4r_ws/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /ai4r_ws/build/yolobot_recognition -- -j12 -l12
+Invoking command in '/ai4r_ws/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /ai4r_ws/build/yolobot_recognition
+Invoked command in '/ai4r_ws/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /ai4r_ws/build/yolobot_recognition

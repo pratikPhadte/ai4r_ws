@@ -1,0 +1,39 @@
+[4.692s] Invoking command in '/ai4r_ws/src/relbot_video_interface': PYTHONPATH=/ai4r_ws/build/relbot_video_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/relbot_video_interface build --build-base /ai4r_ws/build/relbot_video_interface/build install --record /ai4r_ws/build/relbot_video_interface/install.log --single-version-externally-managed install_data
+[6.127s] running egg_info
+[6.127s] creating ../../build/relbot_video_interface/relbot_video_interface.egg-info
+[6.296s] writing ../../build/relbot_video_interface/relbot_video_interface.egg-info/PKG-INFO
+[6.296s] writing dependency_links to ../../build/relbot_video_interface/relbot_video_interface.egg-info/dependency_links.txt
+[6.296s] writing entry points to ../../build/relbot_video_interface/relbot_video_interface.egg-info/entry_points.txt
+[6.296s] writing requirements to ../../build/relbot_video_interface/relbot_video_interface.egg-info/requires.txt
+[6.296s] writing top-level names to ../../build/relbot_video_interface/relbot_video_interface.egg-info/top_level.txt
+[6.297s] writing manifest file '../../build/relbot_video_interface/relbot_video_interface.egg-info/SOURCES.txt'
+[6.712s] reading manifest file '../../build/relbot_video_interface/relbot_video_interface.egg-info/SOURCES.txt'
+[6.720s] writing manifest file '../../build/relbot_video_interface/relbot_video_interface.egg-info/SOURCES.txt'
+[6.720s] running build
+[6.720s] running build_py
+[6.721s] creating /ai4r_ws/build/relbot_video_interface/build
+[6.721s] creating /ai4r_ws/build/relbot_video_interface/build/lib
+[6.721s] creating /ai4r_ws/build/relbot_video_interface/build/lib/relbot_video_interface
+[6.721s] copying relbot_video_interface/video_interface_node.py -> /ai4r_ws/build/relbot_video_interface/build/lib/relbot_video_interface
+[6.727s] copying relbot_video_interface/__init__.py -> /ai4r_ws/build/relbot_video_interface/build/lib/relbot_video_interface
+[6.728s] running install
+[6.794s] running install_lib
+[6.968s] creating /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface
+[6.968s] copying /ai4r_ws/build/relbot_video_interface/build/lib/relbot_video_interface/video_interface_node.py -> /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface
+[6.972s] copying /ai4r_ws/build/relbot_video_interface/build/lib/relbot_video_interface/__init__.py -> /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface
+[6.973s] byte-compiling /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface/video_interface_node.py to video_interface_node.cpython-312.pyc
+[6.977s] byte-compiling /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface/__init__.py to __init__.cpython-312.pyc
+[6.979s] running install_data
+[6.981s] creating /ai4r_ws/install/relbot_video_interface/share/ament_index
+[6.982s] creating /ai4r_ws/install/relbot_video_interface/share/ament_index/resource_index
+[6.986s] creating /ai4r_ws/install/relbot_video_interface/share/ament_index/resource_index/packages
+[6.986s] copying resource/relbot_video_interface -> /ai4r_ws/install/relbot_video_interface/share/ament_index/resource_index/packages
+[6.987s] copying package.xml -> /ai4r_ws/install/relbot_video_interface/share/relbot_video_interface
+[6.987s] creating /ai4r_ws/install/relbot_video_interface/share/relbot_video_interface/launch
+[6.989s] copying launch/video_interface.launch.py -> /ai4r_ws/install/relbot_video_interface/share/relbot_video_interface/launch
+[6.989s] running install_egg_info
+[7.183s] Copying ../../build/relbot_video_interface/relbot_video_interface.egg-info to /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface-0.1.0-py3.12.egg-info
+[7.203s] running install_scripts
+[8.112s] Installing video_interface script to /ai4r_ws/install/relbot_video_interface/lib/relbot_video_interface
+[8.112s] writing list of installed files to '/ai4r_ws/build/relbot_video_interface/install.log'
+[8.368s] Invoked command in '/ai4r_ws/src/relbot_video_interface' returned '0': PYTHONPATH=/ai4r_ws/build/relbot_video_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/relbot_video_interface build --build-base /ai4r_ws/build/relbot_video_interface/build install --record /ai4r_ws/build/relbot_video_interface/install.log --single-version-externally-managed install_data

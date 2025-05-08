@@ -1,0 +1,2 @@
+/ai4r_ws/build/yolov8_msgs/rosidl_adapter/yolov8_msgs:msg/InferenceResult.idl
+/ai4r_ws/build/yolov8_msgs/rosidl_adapter/yolov8_msgs:msg/Yolov8Inference.idl

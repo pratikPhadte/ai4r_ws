@@ -1,0 +1,7 @@
+{
+  "package_name": "yolov8_msgs",
+  "non_idl_tuples": [
+    "/ai4r_ws/src/yolobot/src/yolov8_msgs:msg/InferenceResult.msg",
+    "/ai4r_ws/src/yolobot/src/yolov8_msgs:msg/Yolov8Inference.msg"
+  ]
+}

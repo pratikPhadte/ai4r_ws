@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/relbot_video_interface/relbot_video_interface.egg-info
+writing ../../build/relbot_video_interface/relbot_video_interface.egg-info/PKG-INFO
+writing dependency_links to ../../build/relbot_video_interface/relbot_video_interface.egg-info/dependency_links.txt
+writing entry points to ../../build/relbot_video_interface/relbot_video_interface.egg-info/entry_points.txt
+writing requirements to ../../build/relbot_video_interface/relbot_video_interface.egg-info/requires.txt
+writing top-level names to ../../build/relbot_video_interface/relbot_video_interface.egg-info/top_level.txt
+writing manifest file '../../build/relbot_video_interface/relbot_video_interface.egg-info/SOURCES.txt'
+reading manifest file '../../build/relbot_video_interface/relbot_video_interface.egg-info/SOURCES.txt'
+writing manifest file '../../build/relbot_video_interface/relbot_video_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ai4r_ws/build/relbot_video_interface/build
+creating /ai4r_ws/build/relbot_video_interface/build/lib
+creating /ai4r_ws/build/relbot_video_interface/build/lib/relbot_video_interface
+copying relbot_video_interface/video_interface_node.py -> /ai4r_ws/build/relbot_video_interface/build/lib/relbot_video_interface
+copying relbot_video_interface/__init__.py -> /ai4r_ws/build/relbot_video_interface/build/lib/relbot_video_interface
+running install
+running install_lib
+creating /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface
+copying /ai4r_ws/build/relbot_video_interface/build/lib/relbot_video_interface/video_interface_node.py -> /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface
+copying /ai4r_ws/build/relbot_video_interface/build/lib/relbot_video_interface/__init__.py -> /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface
+byte-compiling /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface/video_interface_node.py to video_interface_node.cpython-312.pyc
+byte-compiling /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /ai4r_ws/install/relbot_video_interface/share/ament_index
+creating /ai4r_ws/install/relbot_video_interface/share/ament_index/resource_index
+creating /ai4r_ws/install/relbot_video_interface/share/ament_index/resource_index/packages
+copying resource/relbot_video_interface -> /ai4r_ws/install/relbot_video_interface/share/ament_index/resource_index/packages
+copying package.xml -> /ai4r_ws/install/relbot_video_interface/share/relbot_video_interface
+creating /ai4r_ws/install/relbot_video_interface/share/relbot_video_interface/launch
+copying launch/video_interface.launch.py -> /ai4r_ws/install/relbot_video_interface/share/relbot_video_interface/launch
+running install_egg_info
+Copying ../../build/relbot_video_interface/relbot_video_interface.egg-info to /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface-0.1.0-py3.12.egg-info
+running install_scripts
+Installing video_interface script to /ai4r_ws/install/relbot_video_interface/lib/relbot_video_interface
+writing list of installed files to '/ai4r_ws/build/relbot_video_interface/install.log'

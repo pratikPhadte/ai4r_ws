@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: relbot-video-interface
+Version: 0.1.0
+Summary: Capture GStreamer video and publish object positions to RELBot
+Maintainer: Bavantha Udugama
+Maintainer-email: b.udugama@utwente.nl
+License: MIT

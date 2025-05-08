@@ -1,0 +1,58 @@
+[1.693s] Invoking command in '/ai4r_ws/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /ai4r_ws/src/yolobot/src/yolobot_recognition -DCMAKE_INSTALL_PREFIX=/ai4r_ws/install/yolobot_recognition
+[2.272s] -- The C compiler identification is GNU 13.3.0
+[2.804s] -- The CXX compiler identification is GNU 13.3.0
+[2.921s] -- Detecting C compiler ABI info
+[3.420s] -- Detecting C compiler ABI info - done
+[3.472s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.475s] -- Detecting C compile features
+[3.483s] -- Detecting C compile features - done
+[3.522s] -- Detecting CXX compiler ABI info
+[3.954s] -- Detecting CXX compiler ABI info - done
+[3.991s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.992s] -- Detecting CXX compile features
+[3.993s] -- Detecting CXX compile features - done
+[4.009s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.942s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.512s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.346s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.356s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.356s] -- Configured 'flake8' exclude dirs and/or files: 
+[6.357s] -- Added test 'lint_cmake' to check CMake code style
+[6.375s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.375s] -- Added test 'xmllint' to check XML markup files
+[6.400s] -- Configuring done (4.6s)
+[6.430s] -- Generating done (0.0s)
+[6.458s] -- Build files have been written to: /ai4r_ws/build/yolobot_recognition
+[6.520s] Invoked command in '/ai4r_ws/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /ai4r_ws/src/yolobot/src/yolobot_recognition -DCMAKE_INSTALL_PREFIX=/ai4r_ws/install/yolobot_recognition
+[6.520s] Invoking command in '/ai4r_ws/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /ai4r_ws/build/yolobot_recognition -- -j12 -l12
+[6.689s] Invoked command in '/ai4r_ws/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /ai4r_ws/build/yolobot_recognition -- -j12 -l12
+[6.690s] Invoking command in '/ai4r_ws/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /ai4r_ws/build/yolobot_recognition
+[6.716s] -- Install configuration: ""
+[6.716s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//scripts
+[6.716s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov8_ros2_subscriber.py
+[6.722s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov8n.pt
+[6.749s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/.gitignore
+[6.749s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/.gitattributes
+[6.750s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/.dockerignore
+[6.751s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov8_ros2_pt.py
+[6.755s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//launch
+[6.755s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition//launch/launch_yolov8.launch.py
+[6.757s] -- Installing: /ai4r_ws/install/yolobot_recognition/lib/yolobot_recognition/yolov8_ros2_pt.py
+[6.757s] -- Installing: /ai4r_ws/install/yolobot_recognition/lib/yolobot_recognition/yolov8_ros2_subscriber.py
+[6.757s] -- Installing: /ai4r_ws/install/yolobot_recognition/lib/yolobot_recognition/launch_yolov8.launch.py
+[6.757s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/ament_index/resource_index/package_run_dependencies/yolobot_recognition
+[6.758s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/ament_index/resource_index/parent_prefix_path/yolobot_recognition
+[6.759s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/environment/ament_prefix_path.sh
+[6.759s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/environment/ament_prefix_path.dsv
+[6.760s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/environment/path.sh
+[6.762s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/environment/path.dsv
+[6.763s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.bash
+[6.763s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.sh
+[6.763s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.zsh
+[6.763s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.dsv
+[6.763s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/package.dsv
+[6.763s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/ament_index/resource_index/packages/yolobot_recognition
+[6.763s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/cmake/yolobot_recognitionConfig.cmake
+[6.763s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/cmake/yolobot_recognitionConfig-version.cmake
+[6.763s] -- Installing: /ai4r_ws/install/yolobot_recognition/share/yolobot_recognition/package.xml
+[6.769s] Invoked command in '/ai4r_ws/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /ai4r_ws/build/yolobot_recognition

@@ -1,0 +1,2 @@
+[console_scripts]
+video_interface = relbot_video_interface.video_interface_node:main

@@ -1,0 +1,9 @@
+/ai4r_ws/build/yolobot_description/CMakeFiles/uninstall.dir
+/ai4r_ws/build/yolobot_description/CMakeFiles/yolobot_description_uninstall.dir
+/ai4r_ws/build/yolobot_description/CMakeFiles/test.dir
+/ai4r_ws/build/yolobot_description/CMakeFiles/edit_cache.dir
+/ai4r_ws/build/yolobot_description/CMakeFiles/rebuild_cache.dir
+/ai4r_ws/build/yolobot_description/CMakeFiles/list_install_components.dir
+/ai4r_ws/build/yolobot_description/CMakeFiles/install.dir
+/ai4r_ws/build/yolobot_description/CMakeFiles/install/local.dir
+/ai4r_ws/build/yolobot_description/CMakeFiles/install/strip.dir
