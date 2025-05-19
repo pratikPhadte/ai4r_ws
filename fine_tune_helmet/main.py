@@ -24,17 +24,24 @@ while True:
         px1, py1, px2, py2 = map(int, person.xyxy[0])
         person_box = (px1, py1, px2, py2)
 
-        print(f"Person box: {person_box}")
 
         # Check if any hat/helmet is inside the person box
         is_wearing_hat = False
-        for hat in hat_results[0].boxes:
-            
-            hx1, hy1, hx2, hy2 = map(int, hat.xyxy[0])
-            print(f"Hat box: {hx1, hy1, hx2, hy2}")
-            if (hx1 > px1 and hy1 < py1 and hx2 < px2 and hy2 > py2):
-                is_wearing_hat = True
-                break
+
+        for hr in hat_results:
+
+            hat_boxes = hr.boxes
+
+            for hat_box in hat_boxes:
+                cls = int(hat_box.cls[0])
+
+                if cls == 1:
+                    hx1, hy1, hx2, hy2 = map(int, hat_box.xyxy[0])
+                    print(f"Hat box: {hx1, hy1, hx2, hy2}")
+                    cv2.rectangle(frame, (hx1, hy1), (hx2, hy2), (255, 0, 255), 3)
+                    if (hx1 > px1 and hx2 < px2):
+                        is_wearing_hat = True
+                        break
 
         # Draw on frame
         label = "Person_with_Helmet" if is_wearing_hat else "Person_without_Helmet"
