@@ -62,6 +62,19 @@ class VideoInterfaceNode(Node):
             with torch.no_grad():
                 prediction = self.midas(input_batch)
                 self.depth_map = prediction.squeeze().cpu().numpy()
+    
+    def normalize_distance(self, distance, min_dist=2, max_dist=20):
+        """
+        Normalize the distance to a range from 0 (2m) to 10,000 (20m).
+        Values less than 2m are clamped to 0.
+        Values greater than 20m are clamped to 10000.
+        """
+        if distance <= min_dist:
+            return 0
+        elif distance >= max_dist:
+            return 10000
+        else:
+            return int(((distance - min_dist) / (max_dist - min_dist)) * 10000)
 
     def on_timer(self):
         # Pull the latest frame from appsink
@@ -100,7 +113,7 @@ class VideoInterfaceNode(Node):
                 px1, py1, px2, py2 = map(int, person_box.xyxy[0])
                 conf = person_box.conf[0]
 
-                is_wearing_hat = False
+                is_wearing_helmet = False
                 for hr in helmet_results:
                     helmet_boxes = hr.boxes
                     for helmet_box in helmet_boxes:
@@ -109,7 +122,7 @@ class VideoInterfaceNode(Node):
                             hx1, hy1, hx2, hy2 = map(int, helmet_box.xyxy[0])
                             cv2.rectangle(frame, (hx1, hy1), (hx2, hy2), (255, 0, 255), 3)
                             if (hx1 > px1 and hx2 < px2):
-                                is_wearing_hat = True
+                                is_wearing_helmet = True
                                 break
 
                 person_crop = frame[py1:py2, px1:px2]
@@ -124,13 +137,15 @@ class VideoInterfaceNode(Node):
                 else:
                     metric_distance = 0
 
+                normalized_distance = self.normalize_distance(metric_distance)
+
                 center_x = (px1 + px2) // 2
                 x_coordinates.append(center_x)
 
                 cv2.rectangle(frame_bgr, (px1, py1), (px2, py2), (0, 255, 0), 2)
                 label = f'Person: {conf:.2f}'
-                label += " with Hardhat" if is_wearing_hat else " without Hardhat"
-                color = (0, 255, 0) if is_wearing_hat else (0, 0, 255)
+                label += " with Hardhat" if is_wearing_helmet else " without Hardhat"
+                color = (0, 255, 0) if is_wearing_helmet else (0, 0, 255)
 
                 cv2.putText(frame_bgr, label, (px1, py1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
                 cv2.putText(frame, f"Distance: {metric_distance:.2f} m", 
@@ -141,7 +156,7 @@ class VideoInterfaceNode(Node):
                     msg = Point()
                     msg.x = float(center_x)  # x-coordinate of person center
                     msg.y = 0.0  # Unused (flat-ground assumption)
-                    msg.z = float(metric_distance)
+                    msg.z = float(normalized_distance)
                     self.position_pub.publish(msg)
                     self.get_logger().debug(f'Published position: ({msg.x}, {msg.y}, {msg.z})')
 
