@@ -11,7 +11,7 @@ cap.set(3, 640)
 cap.set(4, 480)
 
 # model
-model = YOLO("Hard_hat_model.pt")
+model = YOLO("hardhat.pt")
 
 # object classes for labelling
 classNames = ['head', 'helmet']
