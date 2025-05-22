@@ -1,6 +1,0 @@
-Invoking command in '/ai4r_ws/build/yolobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /ai4r_ws/src/yolobot/src/yolobot_gazebo -DCMAKE_INSTALL_PREFIX=/ai4r_ws/install/yolobot_gazebo
-Invoked command in '/ai4r_ws/build/yolobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /ai4r_ws/src/yolobot/src/yolobot_gazebo -DCMAKE_INSTALL_PREFIX=/ai4r_ws/install/yolobot_gazebo
-Invoking command in '/ai4r_ws/build/yolobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /ai4r_ws/build/yolobot_gazebo -- -j12 -l12
-Invoked command in '/ai4r_ws/build/yolobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /ai4r_ws/build/yolobot_gazebo -- -j12 -l12
-Invoking command in '/ai4r_ws/build/yolobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /ai4r_ws/build/yolobot_gazebo
-Invoked command in '/ai4r_ws/build/yolobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /ai4r_ws/build/yolobot_gazebo

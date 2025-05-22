@@ -39,7 +39,7 @@ class VideoInterfaceNode(Node):
         self.pipeline.set_state(Gst.State.PLAYING)
 
         self.real_height = 1.7  # Real-world height of the person in meters
-        self.focal_length = 800  # Approximate focal length in pixels (adjust for your camera)
+        self.focal_length = 400  # Approximate focal length in pixels (adjust for your camera)
 
         self.depth_map = None
 
@@ -63,18 +63,18 @@ class VideoInterfaceNode(Node):
                 prediction = self.midas(input_batch)
                 self.depth_map = prediction.squeeze().cpu().numpy()
     
-    def normalize_distance(self, distance, min_dist=2, max_dist=20):
+    def normalize_distance(self, distance, min_dist=3, max_dist=20):
         """
-        Normalize the distance to a range from 0 (2m) to 10,000 (20m).
-        Values less than 2m are clamped to 0.
-        Values greater than 20m are clamped to 10000.
+        Normalize the distance to a range from 10,000 (min_dist = 3m) to 0 (max_dist = 20m).
+        Values less than min_dist are clamped to 10,000.
+        Values greater than max_dist are clamped to 0.
         """
         if distance <= min_dist:
-            return 0
-        elif distance >= max_dist:
             return 10000
+        elif distance >= max_dist:
+            return 0
         else:
-            return int(((distance - min_dist) / (max_dist - min_dist)) * 10000)
+            return int(((max_dist - distance) / (max_dist - min_dist)) * 10000)
 
     def on_timer(self):
         # Pull the latest frame from appsink
@@ -106,6 +106,8 @@ class VideoInterfaceNode(Node):
         # Initialize list for x-coordinates
         x_coordinates = []
 
+        person_detected = False
+
         # Process detection results
         for person_result in person_results:
             person_boxes = person_result.boxes
@@ -120,7 +122,7 @@ class VideoInterfaceNode(Node):
                         helmet_class = int(helmet_box.cls[0])
                         if helmet_class == 1: # Class ID 1 = hardhat
                             hx1, hy1, hx2, hy2 = map(int, helmet_box.xyxy[0])
-                            cv2.rectangle(frame, (hx1, hy1), (hx2, hy2), (255, 0, 255), 3)
+                            cv2.rectangle(frame_bgr, (hx1, hy1), (hx2, hy2), (255, 0, 255), 3)
                             if (hx1 > px1 and hx2 < px2):
                                 is_wearing_helmet = True
                                 break
@@ -148,7 +150,7 @@ class VideoInterfaceNode(Node):
                 color = (0, 255, 0) if is_wearing_helmet else (0, 0, 255)
 
                 cv2.putText(frame_bgr, label, (px1, py1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
-                cv2.putText(frame, f"Distance: {metric_distance:.2f} m", 
+                cv2.putText(frame_bgr, f"Distance: {metric_distance:.2f} m", 
                     (px1, py1 + 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
                 # Publish position for the first detected person
@@ -159,6 +161,11 @@ class VideoInterfaceNode(Node):
                     msg.z = float(normalized_distance)
                     self.position_pub.publish(msg)
                     self.get_logger().debug(f'Published position: ({msg.x}, {msg.y}, {msg.z})')
+                
+                person_detected = True
+                break
+            if person_detected:
+                break
 
         # Print x-coordinates
         for i, x in enumerate(x_coordinates):

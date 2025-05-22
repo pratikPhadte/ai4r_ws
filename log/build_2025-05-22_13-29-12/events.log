@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.001994] (relbot_video_interface) JobQueued: {'identifier': 'relbot_video_interface', 'dependencies': OrderedDict()}
+[0.002356] (relbot_video_interface) JobStarted: {'identifier': 'relbot_video_interface'}
+[0.102858] (-) TimerEvent: {}
+[0.203107] (-) TimerEvent: {}
+[0.303335] (-) TimerEvent: {}
+[0.406854] (-) TimerEvent: {}
+[0.507284] (-) TimerEvent: {}
+[0.607524] (-) TimerEvent: {}
+[0.708264] (-) TimerEvent: {}
+[0.811996] (-) TimerEvent: {}
+[0.912255] (-) TimerEvent: {}
+[1.012523] (-) TimerEvent: {}
+[1.117866] (-) TimerEvent: {}
+[1.218126] (-) TimerEvent: {}
+[1.318486] (-) TimerEvent: {}
+[1.418745] (-) TimerEvent: {}
+[1.519004] (-) TimerEvent: {}
+[1.580493] (relbot_video_interface) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/relbot_video_interface', 'build', '--build-base', '/ai4r_ws/build/relbot_video_interface/build', 'install', '--record', '/ai4r_ws/build/relbot_video_interface/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ai4r_ws/src/relbot_video_interface', 'env': {'HOSTNAME': 'pratik-LOQ-15IRH8', 'GIT_ASKPASS': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/ai4r_ws/install/yolov8_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/ai4r_ws/src', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-c382c83b-fc03-4103-b575-7ecc1e45dc53.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/ai4r_ws/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-2b2ccbc1-501a-41ab-a127-68738cf31efe.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-2b2ccbc1-501a-41ab-a127-68738cf31efe.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-37cea695a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-2b2ccbc1-501a-41ab-a127-68738cf31efe.sock', 'AMENT_PREFIX_PATH': '/ai4r_ws/install/yolov8_msgs:/ai4r_ws/install/yolobot_recognition:/ai4r_ws/install/yolobot_gazebo:/ai4r_ws/install/yolobot_description:/ai4r_ws/install/yolobot_control:/ai4r_ws/install/relbot_video_interface:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ai4r_ws/build/relbot_video_interface', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/ai4r_ws/build/relbot_video_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages:/ai4r_ws/install/yolov8_msgs/lib/python3.12/site-packages:/ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ai4r_ws/install/yolov8_msgs:/ai4r_ws/install/yolobot_recognition:/ai4r_ws/install/yolobot_gazebo:/ai4r_ws/install/yolobot_description:/ai4r_ws/install/yolobot_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.620859] (-) TimerEvent: {}
+[1.722860] (-) TimerEvent: {}
+[1.823099] (-) TimerEvent: {}
+[1.923349] (-) TimerEvent: {}
+[2.023729] (-) TimerEvent: {}
+[2.045579] (relbot_video_interface) StdoutLine: {'line': b'running egg_info\n'}
+[2.083215] (relbot_video_interface) StdoutLine: {'line': b'writing ../../build/relbot_video_interface/relbot_video_interface.egg-info/PKG-INFO\n'}
+[2.083359] (relbot_video_interface) StdoutLine: {'line': b'writing dependency_links to ../../build/relbot_video_interface/relbot_video_interface.egg-info/dependency_links.txt\n'}
+[2.083438] (relbot_video_interface) StdoutLine: {'line': b'writing entry points to ../../build/relbot_video_interface/relbot_video_interface.egg-info/entry_points.txt\n'}
+[2.083496] (relbot_video_interface) StdoutLine: {'line': b'writing requirements to ../../build/relbot_video_interface/relbot_video_interface.egg-info/requires.txt\n'}
+[2.083549] (relbot_video_interface) StdoutLine: {'line': b'writing top-level names to ../../build/relbot_video_interface/relbot_video_interface.egg-info/top_level.txt\n'}
+[2.123813] (-) TimerEvent: {}
+[2.155349] (relbot_video_interface) StdoutLine: {'line': b"reading manifest file '../../build/relbot_video_interface/relbot_video_interface.egg-info/SOURCES.txt'\n"}
+[2.155534] (relbot_video_interface) StdoutLine: {'line': b"writing manifest file '../../build/relbot_video_interface/relbot_video_interface.egg-info/SOURCES.txt'\n"}
+[2.156156] (relbot_video_interface) StdoutLine: {'line': b'running build\n'}
+[2.156309] (relbot_video_interface) StdoutLine: {'line': b'running build_py\n'}
+[2.156387] (relbot_video_interface) StdoutLine: {'line': b'copying relbot_video_interface/video_interface_node.py -> /ai4r_ws/build/relbot_video_interface/build/lib/relbot_video_interface\n'}
+[2.156611] (relbot_video_interface) StdoutLine: {'line': b'running install\n'}
+[2.171354] (relbot_video_interface) StdoutLine: {'line': b'running install_lib\n'}
+[2.199425] (relbot_video_interface) StdoutLine: {'line': b'copying /ai4r_ws/build/relbot_video_interface/build/lib/relbot_video_interface/video_interface_node.py -> /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface\n'}
+[2.203360] (relbot_video_interface) StdoutLine: {'line': b'byte-compiling /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface/video_interface_node.py to video_interface_node.cpython-312.pyc\n'}
+[2.209190] (relbot_video_interface) StdoutLine: {'line': b'running install_data\n'}
+[2.209314] (relbot_video_interface) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.223839] (-) TimerEvent: {}
+[2.241884] (relbot_video_interface) StdoutLine: {'line': b"removing '/ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface-0.1.0-py3.12.egg-info' (and everything under it)\n"}
+[2.242036] (relbot_video_interface) StdoutLine: {'line': b'Copying ../../build/relbot_video_interface/relbot_video_interface.egg-info to /ai4r_ws/install/relbot_video_interface/lib/python3.12/site-packages/relbot_video_interface-0.1.0-py3.12.egg-info\n'}
+[2.245874] (relbot_video_interface) StdoutLine: {'line': b'running install_scripts\n'}
+[2.323924] (-) TimerEvent: {}
+[2.360536] (relbot_video_interface) StdoutLine: {'line': b'Installing video_interface script to /ai4r_ws/install/relbot_video_interface/lib/relbot_video_interface\n'}
+[2.361650] (relbot_video_interface) StdoutLine: {'line': b"writing list of installed files to '/ai4r_ws/build/relbot_video_interface/install.log'\n"}
+[2.427926] (relbot_video_interface) CommandEnded: {'returncode': 0}
+[2.429272] (-) TimerEvent: {}
+[2.443345] (relbot_video_interface) JobEnded: {'identifier': 'relbot_video_interface', 'rc': 0}
+[2.444881] (-) EventReactorShutdown: {}
