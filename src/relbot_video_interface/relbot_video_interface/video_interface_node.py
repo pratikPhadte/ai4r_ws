@@ -155,7 +155,8 @@ class VideoInterfaceNode(Node):
                 color = (0, 255, 0) if is_wearing_helmet else (0, 0, 255)
 
                 cv2.putText(frame_bgr, label, (px1, py1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
-                cv2.putText(frame, f"Distance: {depth_m:.2f} m", 
+                distance_print = max(0, depth_m)
+                cv2.putText(frame, f"Distance: {distance_print:.2f} m", 
                     (px1, py1 + 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
                 # Publish position for the first detected person
