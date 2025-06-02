@@ -54,25 +54,24 @@ class VideoInterfaceNode(Node):
         self.get_logger().info('VideoInterfaceNode initialized, streaming at 30Hz')
 
     def compute_depth_map(self, frame):
-        input_image = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
-        input_image = cv2.resize(input_image, (256, 256))  # Resize for MiDaS_small input
+        """Run MiDaS to compute the depth map for the full frame."""
+        input_image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         input_batch = self.midas_transforms(input_image).to(self.device)
         with torch.no_grad():
             prediction = self.midas(input_batch)
             prediction = torch.nn.functional.interpolate(
                 prediction.unsqueeze(1),
-                size=frame.shape[:2],  # Resize to match original frame size
+                size=frame.shape[:2],
                 mode="bicubic",
                 align_corners=False,
             ).squeeze()
-        self.depth_map = prediction.cpu().numpy()
+        return prediction.cpu().numpy()
+
+    def midas_to_meters_linear(self, midas_value):
+        return -0.00976 * midas_value + 5.636
 
     
     def normalize_depth_to_z(self, depth_value, min_depth=2.0, max_depth=20.0):
-        """
-        Normalize depth to a value between 0 and 10000 based on depth in meters.
-        Closer than min_depth → 10000, farther than max_depth → 0.
-        """
         if depth_value <= min_depth:
             return 10000
         elif depth_value >= max_depth:
@@ -100,6 +99,7 @@ class VideoInterfaceNode(Node):
 
         # Convert buffer to numpy array
         frame = np.frombuffer(mapinfo.data, np.uint8).reshape(height, width, 3)
+        self.compute_depth_map(frame)
         buf.unmap(mapinfo)
 
         # Convert RGB to BGR for OpenCV
@@ -138,15 +138,13 @@ class VideoInterfaceNode(Node):
                 center_x = (px1 + px2) // 2
                 center_y = (py1 + py2) // 2
 
-                # Use average depth in a small region to reduce noise
-                region = self.depth_map[max(0, center_y - 5):center_y + 5, max(0, center_x - 5):center_x + 5]
+                region = self.depth_map[max(0, center_y - 2) : center_y + 3, max(0, center_x - 2) : center_x + 3]
+                depth_m = 0
+                z = 0
                 if region.size > 0:
-                    metric_distance = np.mean(region)
-                else:
-                    metric_distance = 0
-
-
-                normalized_distance = self.normalize_depth_to_z(metric_distance)
+                    avg_depth = np.mean(region)
+                    depth_m = self.midas_to_meters_linear(avg_depth)
+                    z = self.normalize_depth_to_z(depth_m)
 
                 center_x = (px1 + px2) // 2
                 x_coordinates.append(center_x)
@@ -157,7 +155,7 @@ class VideoInterfaceNode(Node):
                 color = (0, 255, 0) if is_wearing_helmet else (0, 0, 255)
 
                 cv2.putText(frame_bgr, label, (px1, py1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
-                cv2.putText(frame, f"Distance: {metric_distance:.2f} m", 
+                cv2.putText(frame, f"Distance: {depth_m:.2f} m", 
                     (px1, py1 + 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
                 # Publish position for the first detected person
@@ -165,7 +163,7 @@ class VideoInterfaceNode(Node):
                     msg = Point()
                     msg.x = float(center_x)  # x-coordinate of person center
                     msg.y = 0.0  # Unused (flat-ground assumption)
-                    msg.z = float(normalized_distance)
+                    msg.z = float(z)
                     self.position_pub.publish(msg)
                     self.get_logger().debug(f'Published position: ({msg.x}, {msg.y}, {msg.z})')
 
