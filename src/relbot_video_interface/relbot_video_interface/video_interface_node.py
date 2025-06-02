@@ -53,30 +53,36 @@ class VideoInterfaceNode(Node):
         self.timer = self.create_timer(1.0 / 30.0, self.on_timer)
         self.get_logger().info('VideoInterfaceNode initialized, streaming at 30Hz')
 
-    def depth_thread(self, crop):
-        if self.depth_map is not None:
-            return self.depth_map
+    def compute_depth_map(self, frame):
+        input_image = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+        input_image = cv2.resize(input_image, (256, 256))  # Resize for MiDaS_small input
+        input_batch = self.midas_transforms(input_image).to(self.device)
+        with torch.no_grad():
+            prediction = self.midas(input_batch)
+            prediction = torch.nn.functional.interpolate(
+                prediction.unsqueeze(1),
+                size=frame.shape[:2],  # Resize to match original frame size
+                mode="bicubic",
+                align_corners=False,
+            ).squeeze()
+        self.depth_map = prediction.cpu().numpy()
 
-        with self.frame_lock:
-            input_batch = self.midas_transforms(crop).to(self.device)
-            with torch.no_grad():
-                prediction = self.midas(input_batch)
-                self.depth_map = prediction.squeeze().cpu().numpy()
     
-    def normalize_distance(self, distance, min_dist=2, max_dist=20):
+    def normalize_depth_to_z(self, depth_value, min_depth=2.0, max_depth=20.0):
         """
-        Normalize the distance to a range from 0 (2m) to 10,000 (20m).
-        Values less than 2m are clamped to 0.
-        Values greater than 20m are clamped to 10000.
+        Normalize depth to a value between 0 and 10000 based on depth in meters.
+        Closer than min_depth → 10000, farther than max_depth → 0.
         """
-        if distance <= min_dist:
-            return 0
-        elif distance >= max_dist:
+        if depth_value <= min_depth:
             return 10000
+        elif depth_value >= max_depth:
+            return 0
         else:
-            return int(((distance - min_dist) / (max_dist - min_dist)) * 10000)
+            return int(((max_depth - depth_value) / (max_depth - min_depth)) * 10000)
+
 
     def on_timer(self):
+        self.depth_map = None
         # Pull the latest frame from appsink
         sample = self.sink.emit('pull-sample')
         if not sample:
@@ -125,19 +131,22 @@ class VideoInterfaceNode(Node):
                                 is_wearing_helmet = True
                                 break
 
-                person_crop = frame[py1:py2, px1:px2]
-                person_pixel_height = py2 - py1
+                if self.depth_map is None:
+                    self.compute_depth_map(frame)
 
-                depth_t = Thread(target=self.depth_thread, args=(person_crop,))
-                depth_t.start()
-                depth_t.join()
+                # Extract depth at the center of the person bbox
+                center_x = (px1 + px2) // 2
+                center_y = (py1 + py2) // 2
 
-                if person_pixel_height > 0 and self.depth_map is not None:
-                    metric_distance = (self.real_height * self.focal_length) / person_pixel_height
+                # Use average depth in a small region to reduce noise
+                region = self.depth_map[max(0, center_y - 5):center_y + 5, max(0, center_x - 5):center_x + 5]
+                if region.size > 0:
+                    metric_distance = np.mean(region)
                 else:
                     metric_distance = 0
 
-                normalized_distance = self.normalize_distance(metric_distance)
+
+                normalized_distance = self.normalize_depth_to_z(metric_distance)
 
                 center_x = (px1 + px2) // 2
                 x_coordinates.append(center_x)
